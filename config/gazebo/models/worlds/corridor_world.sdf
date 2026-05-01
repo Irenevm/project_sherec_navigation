@@ -203,6 +203,29 @@
       </link>
       <pose>6 11 1 0 0 0</pose>
     </model>
+    <model name='obstaculo_tfm'>
+      <pose>6.0 0.0 0.5 0 0 0</pose> <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient> <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
 
     <!-- Light -->
     <light name='sun' type='directional'>

@@ -1,0 +1,126 @@
+% Plantilla para Tesis, Trabajo Fin de Máster y Trabajo Fin de Grado en el Departamento de Electrotecnia de la ETSII-UPM.
+% Version 1.3.2 (2016-11-07)
+% Por Hugo Rocha Mendonça
+%
+% Advertencia: Esta versión está en periodo de pruebas y puede contener errores.
+%
+% Para comunicar los fallos encontrados o para cualquier otra sugerencia relacionada con
+% la plantilla, dirigirse a:
+%
+%             hugo.rocha@upm.es
+
+
+\documentclass[tfm]{dinel-upm}
+% \documentclass[<Documento>, <Impresion>, <Interlineado>]{dinel-upm}
+% opciones del documento:
+% <Documento>:
+% 	tesis - doctorado
+%	tfm - trabajo fin de máster
+%	tfg - trabajo fin de grado (por defecto)
+% <Impresion>:
+%	unacara
+%	doblecara (por defecto)
+% <Interlineado>:
+%	espaciosimple
+%	espaciounoymedio (por defecto)
+%	espaciodoble
+
+
+%************************************************************
+% PAQUETES EXTRAS
+
+
+\usepackage{blindtext} % Genera texto automático
+
+
+%************************************************************
+
+
+%************************************************************
+% DATOS DEL TRABAJO
+
+\author{Nombre Completo} % nombre completo
+\TitAutor{} % título del autor, si hay
+\Director{Nombre Completo} % nombre completo del director del trabajo
+\TitDirector{Título del director} % título del director
+\title{Título del Trabajo} % título del trabajo
+\codirector{Nombre Completo} % codirector
+\TitCodirector{Título del director} % título del codirector
+\degree{Máster Universitario en Automática y Robótica}
+\authorname{Tu Nombre Completo}
+%************************************************************
+
+
+%************************************************************
+% GENERA LISTAS DE SÍMBOLOS Y ACRÓNIMOS
+
+\makeindex
+
+\makenomenclature
+% Ejecutar este código en el terminal en la misma carpeta del fichero principal:
+% makeindex <filename>.nlo -s nomencl.ist -o <filename>.nls
+
+\makeglossaries
+% Ejecutar este código en el terminal en la misma carpeta del fichero principal:
+% makeindex -s <filename>.ist -t <filename>.alg -o <filename>.acr <filename>.acn
+%************************************************************
+
+
+%************************************************************
+% GENERA BIBLIOGRAFIA
+
+\bibliography{biblio}
+%************************************************************
+
+
+%************************************************************
+% EMPIEZA EL DOCUMENTO
+
+\begin{document}
+
+%------------------------------------------------------------
+% Primera hoja:
+\titulo
+%------------------------------------------------------------
+% Hoja del tribunal (sólo para la TESIS)
+%\tribunal{Presidente}{Secretario}{Vocal 1}{Vocal 2}{Vocal 3}
+%------------------------------------------------------------
+% Dedicatoria y agradecimientos:
+\dedicatoria{primeras_hojas/dedicatoria.tex}
+\agradecimientos{primeras_hojas/agradecimientos.tex}
+%------------------------------------------------------------
+% Resúmenes:
+% Para TESIS
+\resumen{primeras_hojas/resumen.tex}
+\abstract{primeras_hojas/abstract.tex}
+% Para TFM y TFG
+\resumenejecutivo{primeras_hojas/resumen_ejecutivo.tex}
+%------------------------------------------------------------
+% Indices general, de figuras y de tablas
+\indices
+%------------------------------------------------------------
+% Lista de símbolos y de acrónimos (opcional):
+% ¡OJO! Seguir las instrucciones arriba en: GENERA LISTAS DE SÍMBOLOS Y ACRÓNIMOS.
+\simbolos
+\acronimos
+%------------------------------------------------------------
+
+% Texto principal:
+\texto
+
+% Sugerencia: escribir los capítulos en ficheros aparte y incluirlos en el texto principal tal como enseñado a continuación:
+\include{capitulos/introduccion}
+\include{capitulos/Objetivos}
+\include{capitulos/Metodologia}
+\include{capitulos/resultados}
+\include{capitulos/conclusion}
+
+% BIBLIOGRAFIA
+\chapter{Bibliografía}
+\printbibliography[heading=none]
+
+\appendix
+\include{capitulos/presupuesto}
+
+\end{document}
+%************************************************************ 

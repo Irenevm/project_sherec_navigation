@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{utc}%
+{%
+name={UTC},%
+sort={UTC},%
+type={acronym},%
+first={Coordinated Universal Time\glsspace (UTC)},%
+firstplural={Coordinated Universal Time\acrpluralsuffix \glsspace (UTC\acrpluralsuffix )},%
+text={UTC},%
+plural={UTC\acrpluralsuffix },%
+description={Coordinated Universal Time},%
+descriptionplural={Coordinated Universal Time\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Coordinated Universal Time},%
+longplural={Coordinated Universal Times},%
+short={UTC},%
+shortplural={UTCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{adt}%
+{%
+name={ADT},%
+sort={ADT},%
+type={acronym},%
+first={Atlantic Daylight Time\glsspace (ADT)},%
+firstplural={Atlantic Daylight Time\acrpluralsuffix \glsspace (ADT\acrpluralsuffix )},%
+text={ADT},%
+plural={ADT\acrpluralsuffix },%
+description={Atlantic Daylight Time},%
+descriptionplural={Atlantic Daylight Time\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Atlantic Daylight Time},%
+longplural={Atlantic Daylight Times},%
+short={ADT},%
+shortplural={ADTs},%
+counter={page},%
+parent={},%
+%
+}%
+

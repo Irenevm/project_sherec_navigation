@@ -8,13 +8,20 @@ services:
       dockerfile: Dockerfile
     container_name: as2_sherec_nav
     environment:
-      DISPLAY: $DISPLAY
-      ROS_LOCALHOST_ONLY: 1
+      - DISPLAY=$DISPLAY
+      - ROS_LOCALHOST_ONLY=1
+      - ROS_DOMAIN_ID=0  # Asegúrate de que coincida con tu red
     privileged: true
     volumes:
-      # X11
+      # X11 para ver simulador/RViz
       - ~/.Xauthority:/root/.Xauthority
-      # 
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # PROYECTO ACTUAL
       - .:/root/sherec_nav/
+      # TU CÓDIGO DE AEROSTACK2 (La clave está aquí)
+      # Mapeamos tu carpeta local al contenedor
+      - ~/aerostack2_ws:/root/aerostack2_ws
     network_mode: "host"
+    stdin_open: true
+    tty: true
     command: tail -f /dev/null

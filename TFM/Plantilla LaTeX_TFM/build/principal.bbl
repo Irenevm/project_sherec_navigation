@@ -1,0 +1,109 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{MARTINEZ2013}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=MS}{%
+         family={Martinez},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJA}{%
+         family={Sanches},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mendon\c{c}a},
+         familyi={M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Alvaro},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cuesta},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={D{\'\i}ez},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Parques marinhos, SEP - qualidade}
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSSJAMHARCADA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the CIGR{\'E} Lisbon Symposium}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Impact of a wave energy farm connected to a distribution grid
+  in voltage power quality}
+    \field{year}{2013}
+  \endentry
+
+  \entry{mendonca2013modeling}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=MH}{%
+         family={Mendon\c{c}a},
+         familyi={M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Martinez},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \keyw{WEC - modelos}
+    \strng{namehash}{MHMS1}
+    \strng{fullhash}{MHMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{4th International Youth Conference on Energy (IYCE)}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Modeling of a wave energy converter connected to a resistive
+  load}
+    \field{year}{2013}
+  \endentry
+\enddatalist
+\endinput
