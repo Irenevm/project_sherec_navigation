@@ -53,7 +53,7 @@ windows:
       panes:
         - ros2 run as2_alphanumeric_viewer as2_alphanumeric_viewer_node
             --ros-args -r  __ns:=/drone0 -p use_sim_time:=true
-        - python3 mission/mission_click_to_navigate.py
+        - sleep 5 && python3 mission/mission_click_to_navigate.py
         # - sleep 5 && python3 mission/mission_path_planner_test.py
  
   # Visualization

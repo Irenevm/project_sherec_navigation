@@ -1,0 +1,1976 @@
+msg.Point(x=5.086663991666912, y=2.0134731995741353, z=0.9800365681157711), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.007139617874044173, y=-0.0003896796233
+067505, z=-0.18726316318805575, w=0.9822837582487086))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.7268626689910889, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.6303533315658569)
+[DEBUG] [1779130221.535973477] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=25, nanosec=50
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.158562913758051, y=2.0163362608237905, z=0.9833379992801188), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.0034909748704516725, y=-0.007770604877
+2824745, z=-0.17319847189359822, w=0.9848501003340648))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=0.7265510559082031, y=0.0, z=0.0), angular=geometry_msgs.m
+sg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durati
+on(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), distance_remaining=0.5576114058494568)
+[DEBUG] [1779130221.673704615] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=25, nanosec=61
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.234912629975879, y=2.020505327291124, z=0.9868916214643753), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.0006219049660241792, y=-0.0134930182628
+12172, z=-0.15954574862985646, w=0.9870981236870584))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.7048721313476562, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.4716547429561615)
+[DEBUG] [1779130221.818142237] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=25, nanosec=71
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.300637572192212, y=2.024838686481477, z=0.9899752548116775), orien
+tation=geometry_msgs.msg.Quaternion(x=0.0012286692468641274, y=-0.01805825236252
+5114, z=-0.14865524431985974, w=0.9887234235263651))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.6732081770896912, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.4028431177139282)
+[DEBUG] [1779130221.956178267] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=25, nanosec=81
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.361959537317574, y=2.029404228645215, z=0.9928497997887427), orien
+tation=geometry_msgs.msg.Quaternion(x=0.0025466112996150184, y=-0.02185958387136
+497, z=-0.13905974835661372, w=0.9900394233316443))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.6364959478378296, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.3440476953983307)
+[DEBUG] [1779130222.092687524] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=25, nanosec=90
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.41284802225488, y=2.0335312368738805, z=0.9953047117724964), orien
+tation=geometry_msgs.msg.Quaternion(x=0.0034759493971481072, y=-0.02287832743854
+7737, z=-0.13140627020502252, w=0.9910584705557022))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5937613248825073, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.2888651490211487)
+[DEBUG] [1779130222.235156342] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=0)
+, frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Poin
+t(x=5.464341335741744, y=2.037964048691778, z=0.9978620723487592), orientation=g
+eometry_msgs.msg.Quaternion(x=0.004731652660831406, y=-0.023793850187457586, z=-
+0.12385359404520493, w=0.9920039069471651))), current_speed=geometry_msgs.msg.Tw
+istStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, n
+anosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.msg.
+Vector3(x=0.5418394207954407, y=0.0, z=0.0), angular=geometry_msgs.msg.Vector3(x
+=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=0, na
+nosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanose
+c=0), distance_remaining=0.23235487937927246)
+[DEBUG] [1779130222.380628726] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=10
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.510373053558015, y=2.042016590836429, z=1.0001441041234), orientat
+ion=geometry_msgs.msg.Quaternion(x=0.005477441312121596, y=-0.02494806961964947,
+ z=-0.11721064796705358, w=0.9927785530832487))), current_speed=geometry_msgs.ms
+g.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=
+0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.
+msg.Vector3(x=0.48192352056503296, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.1763790249824524)
+[DEBUG] [1779130222.535600071] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=21
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.55480415119269, y=2.045756603317354, z=1.0025558104993897), orient
+ation=geometry_msgs.msg.Quaternion(x=0.011947889604764094, y=-0.0048420351435481
+4, z=-0.11510252528083413, w=0.9932699589253849))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.42641451954841614, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.8006792664527893)
+[DEBUG] [1779130222.672091292] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=31
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.592818864323515, y=2.046860247415659, z=1.0046912350129664), orien
+tation=geometry_msgs.msg.Quaternion(x=0.02369480489236771, y=0.01019557325304376
+8, z=-0.12193238568767141, w=0.9922031545140679))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.38543879985809326, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.7746223211288452)
+[DEBUG] [1779130222.795189750] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=40
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.627633860717079, y=2.043838025309511, z=1.006435424642729), orient
+ation=geometry_msgs.msg.Quaternion(x=0.03104402259920561, y=0.014455157542261392
+, z=-0.13228773492532947, w=0.9906196405632256))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.38168632984161377, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=0.7465543746948242)
+[DEBUG] [1779130222.941157886] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=51
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.6717662323092455, y=2.033212579900945, z=1.0082402269681705), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.03396873594313543, y=0.0151431643283061
+1, z=-0.14770789619558344, w=0.988331516726056))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.3967796266078949, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.7188770771026611)
+[DEBUG] [1779130223.082792422] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=60
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.709128295131541, y=2.0184176169309658, z=1.0094437850425009), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.03267830585639061, y=0.0132905135967679
+84, z=-0.16123698334811132, w=0.9862850124459416))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.4361017048358917, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.6721415519714355)
+[DEBUG] [1779130223.215153953] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=71
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.75582166659599, y=1.9933024022018178, z=1.0106162223724526), orien
+tation=geometry_msgs.msg.Quaternion(x=0.02833000627471342, y=0.00978544062102390
+9, z=-0.17761996435233712, w=0.9836426201419912))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.46853068470954895, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.6346454620361328)
+[DEBUG] [1779130223.376655682] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=81
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.798586874038782, y=1.9647227491432864, z=1.0114559127638618), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.023409001774711384, y=0.004272197938747
+233, z=-0.19187581157903796, w=0.9811306946026963))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.5022676587104797, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.5884971022605896)
+[DEBUG] [1779130223.518896418] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=26, nanosec=90
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.836560721898709, y=1.935341080585512, z=1.0120400007574153), orien
+tation=geometry_msgs.msg.Quaternion(x=0.018741605052503794, y=-0.000460759932433
+3473, z=-0.20379574929504163, w=0.9788339146707234))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5254096388816833, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.5437072515487671)
+[DEBUG] [1779130223.652985412] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=0)
+, frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Poin
+t(x=5.877419249948802, y=1.899788399769396, z=1.0124780257607109), orientation=g
+eometry_msgs.msg.Quaternion(x=0.012829716098883533, y=-0.004884915080376638, z=-
+0.2159301181989896, w=0.9763123066130274))), current_speed=geometry_msgs.msg.Twi
+stStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, na
+nosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.msg.V
+ector3(x=0.5395488142967224, y=0.0, z=0.0), angular=geometry_msgs.msg.Vector3(x=
+0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=0, nan
+osec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec
+=0), distance_remaining=0.49158090353012085)
+[DEBUG] [1779130223.794521086] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=11
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.92006709355306, y=1.858693338581922, z=1.0127754211455), orientati
+on=geometry_msgs.msg.Quaternion(x=0.006423011997605436, y=-0.007885100569649974,
+ z=-0.22789048103298115, w=0.9736336573683356))), current_speed=geometry_msgs.ms
+g.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=
+0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.
+msg.Vector3(x=0.5420791506767273, y=0.0, z=0.0), angular=geometry_msgs.msg.Vecto
+r3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, na
+nosec=0), distance_remaining=0.4382864236831665)
+[DEBUG] [1779130223.937060731] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=21
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.956402885337377, y=1.8209255106781472, z=1.0129490448178953), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.001034098848921806, y=-0.01106422730236
+4386, z=-0.2375747997549723, w=0.9713056820770468))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.5334941148757935, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.38512861728668213)
+[DEBUG] [1779130224.060252839] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=30
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.98685414287234, y=1.7876025016310866, z=1.0130097171491483), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.002159170038742151, y=-0.01307804587306
+0981, z=-0.24535376103369705, w=0.9693429912304031))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5148779153823853, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.33323901891708374)
+[DEBUG] [1779130224.201677678] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=40
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.017981154100585, y=1.752063045730213, z=1.0129811430092852), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.004619121619050113, y=-0.01469945874941
+1804, z=-0.2530434709268638, w=0.9673322032524443))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.48692572116851807, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.28369060158729553)
+[DEBUG] [1779130224.333843237] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=51
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.048791282326089, y=1.7153938989562474, z=1.0128253288435853), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.006655615493707972, y=-0.0162548550375
+34724, z=-0.2605056756873455, w=0.9653125273220006))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.4572874903678894, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.24171678721904755)
+[DEBUG] [1779130224.473243727] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=61
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.073566247419694, y=1.6846978655271405, z=1.0125848124053962), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.0078485792514428, y=-0.016459937602262
+244, z=-0.26644743834808277, w=0.9636769338609326))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.4163486361503601, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.19432669878005981)
+[DEBUG] [1779130224.593621123] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=71
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.09539432539709, y=1.6566668058278795, z=1.0112688554557088), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.004248670642670745, y=-0.00980721617024
+923, z=-0.2783833394351513, w=0.9604105807589239))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.36832261085510254, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.7304208278656006)
+[DEBUG] [1779130224.758610748] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=81
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.1153632572477505, y=1.629995821602344, z=1.0075534315968793), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.01580202040320101, y=0.0018407125768062
+267, z=-0.302959553304451, w=0.9528706192290504))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.34149718284606934, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=1.7075773477554321)
+[DEBUG] [1779130224.874384154] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=27, nanosec=90
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.132450599262618, y=1.6039034773078888, z=1.0044586882172293), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.03333377655163347, y=0.0035688059668872
+2, z=-0.3309637898070608, w=0.9430477680379314))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.3377683758735657, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.6775928735733032)
+[DEBUG] [1779130225.015652002] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=10
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=6.151330865651114, y=1.5653683499080702, z=1.0012182811752013), orien
+tation=geometry_msgs.msg.Quaternion(x=0.0451888296582739, y=0.003487094669081701
+, z=-0.36823443386198074, w=0.9286275957364345))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.3703519403934479, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.6475921869277954)
+[DEBUG] [1779130225.155206398] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=11
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.165580361347966, y=1.5220406834732056, z=0.9986686958696948), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.050285152712538576, y=0.004673292893220
+969, z=-0.40210784274231576, w=0.9141984721904385))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.4264187216758728, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.611413836479187)
+[DEBUG] [1779130225.293940162] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=21
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.176535156886418, y=1.4699764518358127, z=0.9963443211046883), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.051625871719998856, y=0.007307788847812
+795, z=-0.4343367970505253, w=0.8992401861122515))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.48946449160575867, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.5721184015274048)
+[DEBUG] [1779130225.440218597] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=30
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.1836092019843845, y=1.4154401467547915, z=0.9943730811271188), ori
+entation=geometry_msgs.msg.Quaternion(x=0.05120222191236825, y=0.010117845544160
+564, z=-0.46122875309823264, w=0.8857448836929461))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.56930011510849, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.5202124118804932)
+[DEBUG] [1779130225.600231616] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=41
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.1889944615591075, y=1.338926964131508, z=0.992100906314625), orien
+tation=geometry_msgs.msg.Quaternion(x=0.05005613089317953, y=0.01322789332439335
+9, z=-0.49113847365268276, w=0.8695414919923697))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.6629754900932312, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.4527627229690552)
+[DEBUG] [1779130225.734330782] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=51
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.191123929153487, y=1.2600834380902994, z=0.9902772018953095), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.048022503841413364, y=0.015711028471073
+51, z=-0.5153992065457493, w=0.8554593272629591))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.7498752474784851, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.3820208311080933)
+[DEBUG] [1779130225.876343983] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=61
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.190996144294732, y=1.1727347213987107, z=0.9887925655907301), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.04259276920142243, y=0.0154632458767456
+14, z=-0.5371055561424414, w=0.8422970768081939))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.8279003500938416, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.3107647895812988)
+[DEBUG] [1779130226.020611839] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=70
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.189220944471321, y=1.087725480566507, z=0.9878860410050835), orien
+tation=geometry_msgs.msg.Quaternion(x=0.035088592808254, y=0.013404214672496, z=
+-0.5545126272998941, w=0.8313271701614948))), current_speed=geometry_msgs.msg.Tw
+istStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, n
+anosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.msg.
+Vector3(x=0.9095689058303833, y=0.0, z=0.0), angular=geometry_msgs.msg.Vector3(x
+=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=0, na
+nosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanose
+c=0), distance_remaining=1.223473072052002)
+[DEBUG] [1779130226.133777754] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=80
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.185751310632164, y=0.9877725352517575, z=0.9874069615288648), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.024958835528918536, y=0.010417065442577
+12, z=-0.5715636991341243, w=0.8201118698743005))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.9826637506484985, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.1188730001449585)
+[DEBUG] [1779130226.279788642] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=28, nanosec=91
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.1806815632612775, y=0.8736563582927757, z=0.9873455690988376), ori
+entation=geometry_msgs.msg.Quaternion(x=0.011555403402056791, y=0.00411776057043
+3554, z=-0.587794758002469, w=0.8089170780524535))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=1.02839195728302, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.017935037612915)
+[DEBUG] [1779130226.434655618] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=10
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=6.17541069989141, y=0.7689260757282079, z=0.9877347664191911), orient
+ation=geometry_msgs.msg.Quaternion(x=0.0006699900813089804, y=-0.000691379208486
+6623, z=-0.6004994314474318, w=0.7996246031353664))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=1.0489109754562378, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.9137652516365051)
+[DEBUG] [1779130226.573807756] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=11
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.170009574055279, y=0.6656027448715963, z=0.988549010731182), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.008313294474643133, y=-0.00539002278632
+3487, z=-0.6114642065657633, w=0.7912100611583768))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=1.0455820560455322, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.8194119930267334)
+[DEBUG] [1779130226.701828330] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=20
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.165332747014616, y=0.5754195739041001, z=0.9896083493085972), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.01497683412104894, y=-0.00956879515995
+146, z=-0.620066877726409, w=0.7843476268501869))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=1.015914797782898, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.6956264972686768)
+[DEBUG] [1779130226.834235389] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=31
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.160110621909505, y=0.4706189687556839, z=0.9912250176205394), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.02181792903550516, y=-0.01339448407926
+3356, z=-0.6292027436828747, w=0.7768194597915238))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.9858675003051758, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.6256937980651855)
+[DEBUG] [1779130226.980625060] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=41
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.15608613237687, y=0.3818234918390986, z=0.9927655705243159), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.024650352464112808, y=-0.01562454793515
+2354, z=-0.6364099703648447, w=0.7707986658300822))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.9312484264373779, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.5300379991531372)
+[DEBUG] [1779130227.115583708] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=51
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.152820264692372, y=0.29993304234420287, z=0.9942945884708493), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.026768167096258826, y=-0.017972036022
+87086, z=-0.6426740259911689, w=0.7654610162952794))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.8654451966285706, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.44050928950309753)
+[DEBUG] [1779130227.252914495] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=61
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.150271950501417, y=0.22542553393389186, z=0.9957723434902594), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.028032744244750253, y=-0.020152661283
+10173, z=-0.6481326802843687, w=0.7607444145313965))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.7796033620834351, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.3421981632709503)
+[DEBUG] [1779130227.394680745] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=71
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.148316333888663, y=0.15862659914133084, z=0.9971199106077439), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.028384144463463958, y=-0.022000265022
+979932, z=-0.6529120975608113, w=0.7565818670446297))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.7113476395606995, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.27545812726020813)
+[DEBUG] [1779130227.536998711] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=29, nanosec=81
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.146765953873041, y=0.09974706639250507, z=0.9983916311729233), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.028475577649413657, y=-0.022801429445
+69184, z=-0.6571121091995181, w=0.7529096308562708))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.6330899000167847, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.2086532711982727)
+[INFO] [1779130234.027122791] [drone0.drone0_interface]: Clicked point: 2.551581
+382751465, -0.9108119010925293, 0.0001468658447265625
+[INFO] [1779130234.246154144] [drone0.drone0_interface]: Navigate to done
+[DEBUG] [1779130234.341144736] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=34, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.148442164533412, y=-0.04747463643909449, z=1.009593421186489), ori
+entation=geometry_msgs.msg.Quaternion(x=-5.5016868440613296e-05, y=0.00069410485
+48064227, z=-0.6865960482393341, w=0.7270387759492094))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=0.6330899000167847, y=0.0, z=0.0), angular=geometry_msgs.m
+sg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durati
+on(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), distance_remaining=0.2086532711982727)
+[DEBUG] [1779130234.488072878] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=34, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.14859685311529, y=-0.04720951138965361, z=1.0096969897586803), ori
+entation=geometry_msgs.msg.Quaternion(x=0.0005776660188147136, y=0.0008135889534
+966705, z=-0.6865970347721204, w=0.7270374929927047))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.0036115788388997316, y=0.0, z=0.0), angular=geometry_msgs.
+msg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durat
+ion(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), distance_remaining=0.4000000059604645)
+[DEBUG] [1779130234.603589800] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=34, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.148787573170449, y=-0.04714406008445049, z=1.0096821420285025), or
+ientation=geometry_msgs.msg.Quaternion(x=0.0021470795004844903, y=0.001997798915
+3461087, z=-0.6901926366198382, w=0.7236197366054))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.0026477647479623556, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.14281100034713745)
+[DEBUG] [1779130234.748897875] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=6.148925483125266, y=-0.04764704034478079, z=1.0092475410863069), ori
+entation=geometry_msgs.msg.Quaternion(x=0.010539969011573995, y=0.00550677936013
+7167, z=-0.7037584069837785, w=0.7103398405228081))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.0058705187402665615, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.4255472421646118)
+[DEBUG] [1779130234.895574836] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=18
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.148071442167898, y=-0.05076164006879242, z=1.0092653439340156), or
+ientation=geometry_msgs.msg.Quaternion(x=0.024656402876370397, y=0.0047918883520
+14693, z=-0.7246341134254749, w=0.688675904372511))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.01289003062993288, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.42518162727355957)
+[DEBUG] [1779130235.009069601] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=26
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.1454789075815395, y=-0.05589738073993606, z=1.0094611816683028), o
+rientation=geometry_msgs.msg.Quaternion(x=0.02812249886051191, y=0.0023012627984
+710958, z=-0.7413786460080479, w=0.6704934992157988))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.0494379848241806, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.42246463894844055)
+[DEBUG] [1779130235.148741900] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=36
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.138879920613803, y=-0.06586780588128668, z=1.0097624102968643), or
+ientation=geometry_msgs.msg.Quaternion(x=0.029122176655126463, y=0.0009595022975
+129862, z=-0.762341018687524, w=0.6465192567964831))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.10077930986881256, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.41510725021362305)
+[DEBUG] [1779130235.308526253] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.126906918763773, y=-0.08103365273229973, z=1.0101878861154048), or
+ientation=geometry_msgs.msg.Quaternion(x=0.026620328654411073, y=-0.000115907675
+56269183, z=-0.7841959945124711, w=0.6199419221655672))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=0.1548590064048767, y=0.0, z=0.0), angular=geometry_msgs.m
+sg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durati
+on(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), distance_remaining=0.40231096744537354)
+[DEBUG] [1779130235.449721431] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.111934975524283, y=-0.09799264049991156, z=1.010554780301723), ori
+entation=geometry_msgs.msg.Quaternion(x=0.02179985045542348, y=6.336558242658179
+e-05, z=-0.8022646561316561, w=0.5965703512804499))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.21101050078868866, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.38201653957366943)
+[DEBUG] [1779130235.612984967] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.093779486968163, y=-0.11719595276138509, z=1.010931417802471), ori
+entation=geometry_msgs.msg.Quaternion(x=0.015695305497794534, y=-0.0006800509902
+653357, z=-0.8183602350596507, w=0.574490835948751))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.2491142749786377, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.3611494302749634)
+[DEBUG] [1779130235.728313402] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.073285172477306, y=-0.1378285641643674, z=1.011272372730335), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.010521166973667877, y=-0.00057459661805
+56003, z=-0.8324858970817075, w=0.5539460317073345))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.283020943403244, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.33163636922836304)
+[DEBUG] [1779130235.869068647] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=86
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.053546392608108, y=-0.1570746071746598, z=1.0114629151020573), ori
+entation=geometry_msgs.msg.Quaternion(x=0.0059684898573980835, y=-0.000703095341
+1820673, z=-0.8436219008767275, w=0.5369040613991479))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.30298981070518494, y=0.0, z=0.0), angular=geometry_msgs.m
+sg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durati
+on(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), distance_remaining=0.3021834194660187)
+[DEBUG] [1779130236.037335193] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=35, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=6.02862035702018, y=-0.18085256599008476, z=1.0115844310531428), ori
+entation=geometry_msgs.msg.Quaternion(x=0.002027339503490423, y=-0.0003028420016
+350161, z=-0.8553749520678741, w=0.5180052987722634))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.31144824624061584, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.2744673490524292)
+[DEBUG] [1779130236.171413345] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=6.005848747742809, y=-0.20235095109656276, z=1.0116303225123036), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.0009879260163931914, y=-0.00091013480
+53488357, z=-0.8645113350301127, w=0.5026115271870265))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=0.31428125500679016, y=0.0, z=0.0), angular=geometry_msgs.
+msg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durat
+ion(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), distance_remaining=0.23999369144439697)
+[DEBUG] [1779130236.310042224] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.983462831855182, y=-0.22331781508186915, z=1.0116662340499458), or
+ientation=geometry_msgs.msg.Quaternion(x=0.004480360566664349, y=0.0017289451348
+907778, z=0.8723691092554785, w=-0.488824175276465))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.3112916946411133, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.21499887108802795)
+[DEBUG] [1779130236.458581849] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.961969778799526, y=-0.24331135767359074, z=1.0116807582904577), or
+ientation=geometry_msgs.msg.Quaternion(x=0.007610209599307376, y=0.0022730932705
+388386, z=0.879121380585473, w=-0.4765317575506697))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.30077022314071655, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.18138141930103302)
+[DEBUG] [1779130236.577649890] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.941744234427327, y=-0.26209282731364586, z=1.011067620009225), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.00466469345105129, y=-0.0054483493195
+566285, z=0.88200387732706, w=-0.47118755979411436))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.2818135917186737, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.80609929561615)
+[DEBUG] [1779130236.695396162] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.921714172538783, y=-0.2819912304909986, z=1.0096062967939154), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.014132637762357065, y=-0.022705075720
+784656, z=0.8785378452127302, w=-0.47692347668715607))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.27217093110084534, y=0.0, z=0.0), angular=geometry_msgs.m
+sg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durati
+on(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), distance_remaining=1.7902936935424805)
+[DEBUG] [1779130236.827190165] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.9017237074966475, y=-0.3067229084629966, z=1.008160228831115), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.014461749178898363, y=-0.036488607819
+76611, z=0.8713330100907258, w=-0.4891198471093735))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.2993950843811035, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.767202377319336)
+[DEBUG] [1779130236.973014100] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.882991547636361, y=-0.33862863192636594, z=1.0066953998636157), or
+ientation=geometry_msgs.msg.Quaternion(x=0.01427425375501518, y=0.04447018337360
+813, z=-0.8621222528114694, w=0.5045432287502553))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.33960846066474915, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.744063377380371)
+[DEBUG] [1779130237.122327777] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=78
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8649585727250555, y=-0.38345401397902773, z=1.0050321636963986), o
+rientation=geometry_msgs.msg.Quaternion(x=0.014549292280072146, y=0.048174635905
+704644, z=-0.8509438215386281, w=0.5228404490231584))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.3981684744358063, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=1.7117024660110474)
+[DEBUG] [1779130237.254823200] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.852626276217816, y=-0.4281377810815603, z=1.0035956599605977), ori
+entation=geometry_msgs.msg.Quaternion(x=0.01539724654608354, y=0.049328224524043
+46, z=-0.8415354359361757, w=0.5377246145824228))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.46882399916648865, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=1.671151041984558)
+[DEBUG] [1779130237.371204426] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=36, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.841626425593856, y=-0.48637643383257434, z=1.0018858954947718), or
+ientation=geometry_msgs.msg.Quaternion(x=0.016311718450310972, y=0.0495836661425
+41956, z=-0.8311865887966463, w=0.5535379323024373))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5638872981071472, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.610942006111145)
+[DEBUG] [1779130237.508634636] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=5.833462470279346, y=-0.5536501935360765, z=1.0001337661270375), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.018620743141475913, y=0.048775100848226
+8, z=-0.8212796358150085, w=0.5681320420973205))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.630846381187439, y=0.0, z=0.0), angular=geometry_msgs.msg.Vecto
+r3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, na
+nosec=0), distance_remaining=1.5636471509933472)
+[DEBUG] [1779130237.648147468] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=16
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.828307491356388, y=-0.6218698164684117, z=0.998568980559085), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.02035325053294879, y=0.0473412447616302
+84, z=-0.812864652826604, w=0.5801686030131648))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.7256267666816711, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.4892261028289795)
+[DEBUG] [1779130237.792765790] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=26
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.824674672310475, y=-0.7060209322916519, z=0.9969874269431289), ori
+entation=geometry_msgs.msg.Quaternion(x=0.022096070156192648, y=0.04456188021704
+9946, z=-0.8041858014063269, w=0.5922931700869407))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.8124548196792603, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.4121774435043335)
+[DEBUG] [1779130237.952653834] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8227141092780075, y=-0.8081917714784618, z=0.9956410936291512), or
+ientation=geometry_msgs.msg.Quaternion(x=0.019646733431906396, y=0.0382358332822
+1917, z=-0.7955409601563418, w=0.6043729044490627))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.8892452716827393, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.3353402614593506)
+[DEBUG] [1779130238.090380652] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.822513206539038, y=-0.9083945518309917, z=0.9947778415908458), ori
+entation=geometry_msgs.msg.Quaternion(x=0.01375537447098034, y=0.029750656553628
+61, z=-0.7884711834591783, w=0.6141977539541105))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.9740632176399231, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.2323806285858154)
+[DEBUG] [1779130238.228942950] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.823742399734821, y=-1.0135037222406091, z=0.9943027611498878), ori
+entation=geometry_msgs.msg.Quaternion(x=0.008502344186657629, y=0.02065502858823
+2895, z=-0.7820656556597896, w=0.6227956247235319))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=1.0323455333709717, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.131627082824707)
+[DEBUG] [1779130238.371584326] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.826169407353368, y=-1.121295072757862, z=0.9941262030718537), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.00195557683806868, y=0.0094048667180073
+91, z=-0.7762918869783828, w=0.6303004286947523))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=1.0675251483917236, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.0368444919586182)
+[DEBUG] [1779130238.536110580] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.829428060710409, y=-1.2293262544840389, z=0.9943524631788787), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.0032584371249456917, y=0.000456913161
+1722709, z=-0.7710521508803936, w=0.6367634996139341))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.0830447673797607, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.9073688983917236)
+[DEBUG] [1779130238.670811316] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8331890565042945, y=-1.3355178125185059, z=0.9948476926672537), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.009226486028262813, y=-0.00824073012
+7386247, z=-0.7663136238242995, w=0.6423475634450622))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.0761104822158813, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.820950984954834)
+[DEBUG] [1779130238.795167724] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=37, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.837255861323227, y=-1.4378803247088396, z=0.9955640747386663), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.014155730382344939, y=-0.014922321530
+605333, z=-0.7620788085934284, w=0.6471574994623027))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=1.0406006574630737, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.6938483119010925)
+[DEBUG] [1779130238.930566377] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=5.841477495876244, y=-1.5348360377443944, z=0.9964772897130919), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.018237653986241158, y=-0.0209141792589
+27502, z=-0.7582978337426832, w=0.6513174191008233))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.0023822784423828, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.6122683882713318)
+[DEBUG] [1779130239.088231208] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.845675957246061, y=-1.6250925856020944, z=0.9975133823422192), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.02011714014864967, y=-0.0247444702092
+5663, z=-0.7549645635539806, w=0.6549897095711127))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.9287052750587463, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.49661174416542053)
+[DEBUG] [1779130239.231410902] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=28
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.849989150521457, y=-1.715735837249246, z=0.9986495810753748), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.02152148381319044, y=-0.02790809267135
+1095, z=-0.7517515880748028, w=0.6585039968936696))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.8707253932952881, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.4249366819858551)
+[DEBUG] [1779130239.353043230] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8531017152814035, y=-1.782730658401419, z=0.9995386679285234), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.022626481303597908, y=-0.029121019609
+254558, z=-0.7494593404517308, w=0.6610224697923605))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.786127507686615, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.33426690101623535)
+[DEBUG] [1779130239.487820729] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8560915526606125, y=-1.8493376261977246, z=1.0004623096116392), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.022790856490820164, y=-0.02938702200
+6147553, z=-0.7472402958590924, w=0.6635125620833725))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.7040461301803589, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.2602596580982208)
+[DEBUG] [1779130239.637305652] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.858565476427257, y=-1.9077694931999654, z=1.0012627070199056), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.022674757517361494, y=-0.028813764743
+931488, z=-0.7453218394808782, w=0.6656958599282784))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.6213127970695496, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.19456063210964203)
+[DEBUG] [1779130239.770375324] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=66
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.860366218551017, y=-1.9536363912433632, z=1.001252413633874), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.0167960074402417, y=-0.025073916762767
+778, z=-0.7476421817303835, w=0.6634156773318469))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.5326589345932007, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.7463782429695129)
+[DEBUG] [1779130239.914637784] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8613212143437075, y=-2.0029668277984762, z=0.9993865371616987), or
+ientation=geometry_msgs.msg.Quaternion(x=0.005639989475917262, y=-0.023970794954
+4442, z=-0.7597705510527509, w=0.6497247888613784))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.46316027641296387, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.7206225395202637)
+[DEBUG] [1779130240.057052158] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.858238711539302, y=-2.043939591385161, z=0.9981443346645505), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.020628922933164127, y=-0.02889403642004
+9205, z=-0.775323459926374, w=0.6305657100459643))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.42025449872016907, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.698652446269989)
+[DEBUG] [1779130240.173393643] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=38, nanosec=96
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8499096871057725, y=-2.0786754351260046, z=0.9973695423763822), or
+ientation=geometry_msgs.msg.Quaternion(x=0.026784835753346902, y=-0.032470130737
+96042, z=-0.7909492054355105, w=0.6104323202489043))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.399152934551239, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.6761972904205322)
+[DEBUG] [1779130240.330957057] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=5.8310542910901955, y=-2.1184828250090204, z=0.9968123379833758), ori
+entation=geometry_msgs.msg.Quaternion(x=0.028546799017872198, y=-0.0335732037282
+47715, z=-0.8102534697650763, w=0.5844204265688439))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.3977493345737457, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.6500802636146545)
+[DEBUG] [1779130240.456137785] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=16
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.8083658082079195, y=-2.148735342849225, z=0.9965684357043959), ori
+entation=geometry_msgs.msg.Quaternion(x=0.026025411210896642, y=-0.0313350364057
+4678, z=-0.825359408307935, w=0.5631364315885892))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.4086097776889801, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.6254863739013672)
+[DEBUG] [1779130240.595974243] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.772703334274248, y=-2.1827973172791952, z=0.9964550859746565), ori
+entation=geometry_msgs.msg.Quaternion(x=0.021081439014548647, y=-0.0265806427020
+66528, z=-0.842252634557114, w=0.5380144439921863))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.4370323419570923, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.5858466029167175)
+[DEBUG] [1779130240.730903184] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.7341479924779115, y=-2.211002839851398, z=0.9965213928311027), ori
+entation=geometry_msgs.msg.Quaternion(x=0.013911659172053281, y=-0.0230691400033
+28818, z=-0.8558751640206517, w=0.5164803811677751))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.4634580612182617, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.5488049983978271)
+[DEBUG] [1779130240.867866450] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.691455649914333, y=-2.2364141503882857, z=0.9967385545928769), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.007077001547734554, y=0.0187990908735
+9098, z=0.867781583135959, w=-0.49653966025028506))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.48836785554885864, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.5037167072296143)
+[DEBUG] [1779130241.008146664] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=58
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.641701271432991, y=-2.26113558828574, z=0.9972207912115348), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.0010355948350052988, y=0.01386244540566
+7553, z=0.8790142987749471, w=-0.47659272203832587))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5038594007492065, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.44606509804725647)
+[DEBUG] [1779130241.159064182] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=68
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.595526422504823, y=-2.2808705949204677, z=0.9977508862876688), ori
+entation=geometry_msgs.msg.Quaternion(x=0.003940045124028809, y=0.01052316301748
+411, z=0.8877237281839387, w=-0.4602394175901674))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.5054187178611755, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.39671456813812256)
+[DEBUG] [1779130241.295278615] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.55425653091957, y=-2.2965224989871404, z=0.9982761749544008), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.008007888581813092, y=0.007903187785999
+037, z=0.8944701180251378, w=-0.44698615336873315))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.4979037046432495, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.35238000750541687)
+[DEBUG] [1779130241.435349554] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.509689739028734, y=-2.3117186405198753, z=0.998962714804784), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.01236941805922608, y=0.0059049780765616
+7, z=0.9009324912646823, w=-0.43374275200215684))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.483440101146698, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.30892422795295715)
+[DEBUG] [1779130241.574088618] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=39, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.4673689940829915, y=-2.324688261320602, z=0.9997277747898604), ori
+entation=geometry_msgs.msg.Quaternion(x=0.01457905832869194, y=0.003565866370304
+4, z=0.9064940627266396, w=-0.4219517151246444))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.4594397246837616, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.26249709725379944)
+[DEBUG] [1779130241.690066471] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=5.427924362509386, y=-2.335612091710127, z=1.0006123598394014), orien
+tation=geometry_msgs.msg.Quaternion(x=0.01649093132802833, y=0.00261696706384082
+63, z=0.9112677264884786, w=-0.4114757967704056))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.4284808337688446, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=0.21883681416511536)
+[DEBUG] [1779130241.831553799] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.391742080748237, y=-2.3445904919470286, z=1.0015215647064133), ori
+entation=geometry_msgs.msg.Quaternion(x=0.01679813556038824, y=0.001467798011775
+8984, z=0.9153916272568544, w=-0.4022111845271581))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.3895871043205261, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.17467117309570312)
+[DEBUG] [1779130241.970249678] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.358830037094911, y=-2.351915980199805, z=1.0019789096412046), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.0017319034729377245, y=-0.0001679916087
+548876, z=0.9216133628069066, w=-0.3881053745890732))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.35630953311920166, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=3.343080520629883)
+[DEBUG] [1779130242.116147525] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.3265722158757445, y=-2.3587817688063057, z=1.0017953322201523), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.020784080716996518, y=0.010508862494
+528825, z=0.9309371675457083, w=-0.36443596951974205))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.3243761360645294, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=3.3041019439697266)
+[DEBUG] [1779130242.250607813] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=46
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.294286986530592, y=-2.3645128837351073, z=1.0015360793650394), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.03211446775284539, y=0.02024400824915
+771, z=0.9401260118586527, w=-0.3387062487136954))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.3487781584262848, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=3.271625280380249)
+[DEBUG] [1779130242.391855891] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.2473967958357735, y=-2.36961812723833, z=1.0011679921517336), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.03928982979834127, y=0.026064186936674
+665, z=0.9511989026137332, w=-0.30495510341717064))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.3933033049106598, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=3.242438316345215)
+[DEBUG] [1779130242.515733025] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.196208951921629, y=-2.3716082182111973, z=1.0007036010351655), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.042936756566120844, y=0.0268945923805
+3429, z=0.9603521882010968, w=-0.2741473881940733))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.47486668825149536, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=3.194911241531372)
+[DEBUG] [1779130242.656024859] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.136273034296302, y=-2.3708517322205873, z=1.0000948601998276), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04539292189987638, y=0.02431906364228
+1778, z=0.9682620408956014, w=-0.24457449978613693))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.5682936906814575, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=3.13729190826416)
+[DEBUG] [1779130242.786476743] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=86
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=5.074711560154116, y=-2.3680884139922513, z=0.9994741028969765), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.046515037015791495, y=0.0212347833427
+15616, z=0.9742909563591475, w=-0.21941414645502066))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.648749828338623, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=3.082150936126709)
+[DEBUG] [1779130242.926607294] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=40, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.989734437668726, y=-2.3625395972137895, z=0.9987020234067951), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04779822841442087, y=0.01765287935685
+4043, z=0.9802650731152246, w=-0.19100809313026074))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.7296113967895508, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=3.0197207927703857)
+[DEBUG] [1779130243.094894874] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=4.903297869726468, y=-2.3558603596994385, z=0.9979319399263578), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.04841772005006919, y=0.015165768974296
+065, z=0.9845611378433636, w=-0.16752638504173778))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.8186330795288086, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=2.941887617111206)
+[DEBUG] [1779130243.215878706] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.808224450532856, y=-2.3479590825888748, z=0.997147329436998), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.049097066992285276, y=0.01215021665198
+1306, z=0.9879318467484542, w=-0.14639848506133374))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.9150219559669495, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.8461203575134277)
+[DEBUG] [1779130243.333436339] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.704620606311313, y=-2.3392232726140025, z=0.9963726055158135), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04963405723375146, y=0.00900899794869
+1259, z=0.9905581626249523, w=-0.12747480055115146))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.0099999904632568, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.739874839782715)
+[DEBUG] [1779130243.489219836] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.592603023777241, y=-2.3301052642215927, z=0.9956938961548978), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.049858877104462664, y=0.0055923723784
+51316, z=0.9925944404626296, w=-0.11063044114411799))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=1.0946881771087646, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=2.6343395709991455)
+[DEBUG] [1779130243.632691492] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.472313701773253, y=-2.3210938032143966, z=0.9951668259814912), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04994999176012946, y=0.00324649340237
+56177, z=0.994152515626954, w=-0.09568298843760228))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.1694942712783813, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.5321860313415527)
+[DEBUG] [1779130243.791933460] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.343906065113121, y=-2.312484275984957, z=0.9947340277866761), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.049617235479519434, y=0.00239120782022
+0869, z=0.9953582896856208, w=-0.08242746643350343))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.2509026527404785, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.410862922668457)
+[DEBUG] [1779130243.912276588] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.207551585603247, y=-2.3043440738094016, z=0.9944075780021058), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04924272845687175, y=0.00145967266231
+31012, z=0.9962761848955641, w=-0.07075864936374458))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=1.330687403678894, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.2814643383026123)
+[DEBUG] [1779130244.051722331] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=4.063460985768501, y=-2.2967102179475423, z=0.9941949840797507), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.04818211521384816, y=0.00113712556695
+77005, z=0.9970056107862134, w=-0.06047315751450333))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=1.408761978149414, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=2.1441619396209717)
+[DEBUG] [1779130244.192910160] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=3.911990923931504, y=-2.289510884513839, z=0.9942090701791249), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.043834428778500814, y=0.00128491084836
+8436, z=0.9977143063651067, w=-0.05141064804267837))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.4842172861099243, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.999173879623413)
+[DEBUG] [1779130244.329372918] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=41, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=3.7541004901928354, y=-2.282624495623107, z=0.9945130043976327), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.034709093893569215, y=-4.615523104904
+993e-05, z=0.9984497197396746, w=-0.04351360502817084))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=1.554011344909668, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=1.8468831777572632)
+[DEBUG] [1779130244.478403668] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=3.591649409376666, y=-2.2761421856463895, z=0.9951599666807665), orie
+ntation=geometry_msgs.msg.Quaternion(x=-0.022102269954565653, y=-0.0018345340341
+12132, z=0.9990825292102297, w=-0.036636375020239274))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.6091182231903076, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=1.6883341073989868)
+[DEBUG] [1779130244.614409978] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=3.427199962887175, y=-2.27026368405528, z=0.9959839994872535), orien
+tation=geometry_msgs.msg.Quaternion(x=-0.007122539190194029, y=-0.00344903905267
+02138, z=0.9994992687208027, w=-0.030636341029534463))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.6412785053253174, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=1.5254690647125244)
+[DEBUG] [1779130244.749605534] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=3.2636345222688834, y=-2.265166351017918, z=0.9971003300521131), ori
+entation=geometry_msgs.msg.Quaternion(x=0.007202551528660885, y=-0.0039952399849
+3855, z=0.9996439891647787, w=-0.02537826305458274))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.6439560651779175, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.3444693088531494)
+[DEBUG] [1779130244.893954513] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=3.103765100011781, y=-2.2608842999215844, z=0.9984008744370311), ori
+entation=geometry_msgs.msg.Quaternion(x=0.021797187160853992, y=-0.0041823958556
+13785, z=0.9995376293512661, w=-0.020782629949855497))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.620834469795227, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=1.197526454925537)
+[DEBUG] [1779130245.036376601] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.950287408996579, y=-2.2573901404716645, z=0.999781612952266), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.032295585108987675, y=-0.00408433487154
+316, z=0.9993300573306804, w=-0.01672572589110655))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=1.5678790807724, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.0381454229354858)
+[DEBUG] [1779130245.178720403] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.805219549730877, y=-2.2546227008204243, z=1.0010049246131871), ori
+entation=geometry_msgs.msg.Quaternion(x=0.04019594525665415, y=-0.00333939844848
+5354, z=0.9990996729670703, w=-0.013152105535587369))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=1.5003929138183594, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.900317370891571)
+[DEBUG] [1779130245.331255760] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.669978750971425, y=-2.252459856604651, z=1.0019430981923332), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.04485270232687132, y=-0.003209623289975
+764, z=0.9989387728241323, w=-0.009963009632142755))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=1.3885518312454224, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.7273664474487305)
+[DEBUG] [1779130245.470355042] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.545321593212249, y=-2.250863013191593, z=1.0024502210496045), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.047474748806718925, y=-0.00277988169180
+71195, z=0.998842898071351, w=-0.0071613864539815915))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=1.3057924509048462, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.6199862957000732)
+[DEBUG] [1779130245.594762313] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.4316248524121287, y=-2.2497684383801073, z=1.0025204984136578), or
+ientation=geometry_msgs.msg.Quaternion(x=0.04911810760744368, y=-0.0023563082048
+750385, z=0.9987791169754061, w=-0.004704764663079536))), current_speed=geometry
+_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.T
+ime(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geomet
+ry_msgs.msg.Vector3(x=1.175783634185791, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.4717038869857788)
+[DEBUG] [1779130245.714599861] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=42, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.3290712167749885, y=-2.2490880392291763, z=1.0022191558979852), or
+ientation=geometry_msgs.msg.Quaternion(x=0.05019705090020062, y=-0.0013429676799
+067772, z=0.9987350885313355, w=-0.0025836901978882358))), current_speed=geometr
+y_msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.
+Time(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geome
+try_msgs.msg.Vector3(x=1.0759027004241943, y=0.0, z=0.0), angular=geometry_msgs.
+msg.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Durat
+ion(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), distance_remaining=0.37087440490722656)
+[DEBUG] [1779130245.851577827] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=70
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=2.237707768531338, y=-2.248660692824024, z=1.0016171105064315), orien
+tation=geometry_msgs.msg.Quaternion(x=0.050261961746224125, y=-0.000719975150647
+996, z=0.9987355755231171, w=-0.0006833898682068897))), current_speed=geometry_m
+sgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Tim
+e(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry
+_msgs.msg.Vector3(x=0.9527223110198975, y=0.0, z=0.0), angular=geometry_msgs.msg
+.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration
+(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), distance_remaining=0.25991541147232056)
+[DEBUG] [1779130246.016352879] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.1574245773365766, y=-2.2483682960755194, z=1.0007591775027023), or
+ientation=geometry_msgs.msg.Quaternion(x=0.049952118804871576, y=4.5743960164247
+5e-05, z=0.9987511318113118, w=0.00098002041709714))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.8525789976119995, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.1791938841342926)
+[DEBUG] [1779130246.136933758] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.0875363556338304, y=-2.2480789036698625, z=0.9945018021319698), or
+ientation=geometry_msgs.msg.Quaternion(x=0.055691380864421325, y=0.0024893765688
+59761, z=0.9983542222365279, w=0.01345808471551363))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.7319104671478271, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.213707447052002)
+[DEBUG] [1779130246.290292417] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=2.0280941842513305, y=-2.247534486462146, z=0.977459684316263), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.05452722125940201, y=0.0053993190914195
+39, z=0.9975151403561704, w=0.04428514711827185))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.6513157486915588, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.204504132270813)
+[DEBUG] [1779130246.431330077] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=47
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9798360184710644, y=-2.246180319617521, z=0.9595720466191625), ori
+entation=geometry_msgs.msg.Quaternion(x=0.04107023978765293, y=0.020690330079072
+537, z=0.9952316957217703, w=0.08601754167478357))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.5641409754753113, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=1.1999164819717407)
+[DEBUG] [1779130246.592833852] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=57
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9410180634758245, y=-2.241400271992532, z=0.9449039339011531), ori
+entation=geometry_msgs.msg.Quaternion(x=0.032902427777972906, y=0.03818864700116
+6434, z=0.9897463684653013, w=0.13364573916247244))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.46731969714164734, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.197235107421875)
+[DEBUG] [1779130246.729226265] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9103596044265592, y=-2.230072130222779, z=0.9333407819075065), ori
+entation=geometry_msgs.msg.Quaternion(x=0.026338759065726015, y=0.04829382677314
+2985, z=0.9815783528679515, w=0.18296970581908537))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.37412750720977783, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=1.1920015811920166)
+[DEBUG] [1779130246.873732449] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.887087470952676, y=-2.210412991468096, z=0.9244918544580415), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.019395052583073523, y=0.052677072734640
+264, z=0.9713319442834877, w=0.23100478773797922))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.3211935758590698, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=1.1796947717666626)
+[DEBUG] [1779130247.014509476] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8703815882224355, y=-2.1817017098321756, z=0.9180647772418313), or
+ientation=geometry_msgs.msg.Quaternion(x=0.01337664683102824, y=0.05410322088008
+701, z=0.9595112332322958, w=0.2761016119311828))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.3254495859146118, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=1.1598891019821167)
+[DEBUG] [1779130247.166814017] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=43, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8594798984990266, y=-2.1437616205980796, z=0.9137853854805504), or
+ientation=geometry_msgs.msg.Quaternion(x=0.0069175953096372285, y=0.054056836380
+39602, z=0.9466784624673783, w=0.3175372324879016))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.3670416474342346, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.1342257261276245)
+[DEBUG] [1779130247.310938821] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=80
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=1.8531258177383847, y=-2.0913849584366893, z=0.9112061566665227), ori
+entation=geometry_msgs.msg.Quaternion(x=0.0015815422346204123, y=0.0524516128300
+6923, z=0.9320815596943519, w=0.35842752839790215))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.4309491813182831, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=1.1008820533752441)
+[DEBUG] [1779130247.545314804] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=19
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8517220920969892, y=-2.028200792989904, z=0.9106580278957158), ori
+entation=geometry_msgs.msg.Quaternion(x=-0.002345409360525729, y=0.0480988608580
+9784, z=0.9176128933805819, w=0.3945473058339161))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.53169184923172, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=1.044420599937439)
+[DEBUG] [1779130247.758388423] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=30
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8544281071534945, y=-1.9552413657811718, z=0.9120210557912904), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.003039417126821743, y=0.039974727817
+48718, z=0.9035787914818463, w=0.4265420854542414))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.608870804309845, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.9933001399040222)
+[DEBUG] [1779130247.974909209] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=41
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8605188495423661, y=-1.8744984458902298, z=0.9150042044419511), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.002354800565654881, y=0.029141288891
+008848, z=0.8903950188553921, w=0.454248776105751))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.6934316158294678, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.9214923977851868)
+[DEBUG] [1779130248.131327423] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=49
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8666132366283237, y=-1.8123647512739942, z=0.9180215184600539), or
+ientation=geometry_msgs.msg.Quaternion(x=-0.0008127327579692695, y=0.01998345011
+6931985, z=0.8814091537112999, w=0.47192997885366245))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.7536734342575073, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.8488746881484985)
+[DEBUG] [1779130248.316736547] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=59
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8756244242917963, y=-1.7325724631463348, z=0.9226255035888201), or
+ientation=geometry_msgs.msg.Quaternion(x=0.00011279112898333944, y=0.00947530698
+6508746, z=0.8708971800073904, w=0.49137389805610127))), current_speed=geometry_
+msgs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Ti
+me(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometr
+y_msgs.msg.Vector3(x=0.7870275378227234, y=0.0, z=0.0), angular=geometry_msgs.ms
+g.Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duratio
+n(sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), distance_remaining=0.7870885729789734)
+[DEBUG] [1779130248.483647012] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=67
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.8834753148279082, y=-1.6682911263168971, z=0.9269175044368255), or
+ientation=geometry_msgs.msg.Quaternion(x=0.00299448449231156, y=0.00144148609436
+44497, z=0.8630748236378721, w=0.5050651482560653))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.8105627298355103, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.690958559513092)
+[DEBUG] [1779130248.633687878] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=77
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.893697994898845, y=-1.5890375006821604, z=0.9328051837198682), ori
+entation=geometry_msgs.msg.Quaternion(x=0.004594512893049763, y=-0.0067207876502
+848604, z=0.8540536943924418, w=0.5201211479638729))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.8087514638900757, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.6180622577667236)
+[DEBUG] [1779130248.748682967] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=87
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9038624118402014, y=-1.5124475127263215, z=0.9391092471667489), or
+ientation=geometry_msgs.msg.Quaternion(x=0.005861750892258072, y=-0.013591207023
+962696, z=0.8458737595495628, w=0.5331777394768066))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.7919712066650391, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.5461194515228271)
+[DEBUG] [1779130248.889981388] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=44, nanosec=97
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9134550549131246, y=-1.4397639773941373, z=0.9456338678751817), or
+ientation=geometry_msgs.msg.Quaternion(x=0.007342521065532108, y=-0.018435178312
+416072, z=0.8385030244468542, w=0.5445354989148733))), current_speed=geometry_ms
+gs.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time
+(sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_
+msgs.msg.Vector3(x=0.7554956078529358, y=0.0, z=0.0), angular=geometry_msgs.msg.
+Vector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(
+sec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), distance_remaining=0.4611722528934479)
+[DEBUG] [1779130249.087912713] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=45, nanosec=80
+000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.m
+sg.Point(x=1.922985695041194, y=-1.3653904678660425, z=0.9529358753143438), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.008756391154149518, y=-0.02211776423378
+832, z=0.831287479050931, w=0.5553334649491258))), current_speed=geometry_msgs.m
+sg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec
+=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msgs
+.msg.Vector3(x=0.7153334617614746, y=0.0, z=0.0), angular=geometry_msgs.msg.Vect
+or3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec=
+0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, n
+anosec=0), distance_remaining=0.3952305316925049)
+[DEBUG] [1779130249.208794450] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=45, nanosec=17
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.929819164684124, y=-1.3094091749358632, z=0.9588800764918745), ori
+entation=geometry_msgs.msg.Quaternion(x=0.01010768744474991, y=-0.02402826410075
+5918, z=0.8260551949573626, w=0.5629860496164868))), current_speed=geometry_msgs
+.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(s
+ec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_ms
+gs.msg.Vector3(x=0.6581979393959045, y=0.0, z=0.0), angular=geometry_msgs.msg.Ve
+ctor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(se
+c=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+ nanosec=0), distance_remaining=0.32002493739128113)
+[DEBUG] [1779130249.336925783] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=45, nanosec=27
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9363404820689731, y=-1.2527398380249188, z=0.9652021814259326), or
+ientation=geometry_msgs.msg.Quaternion(x=0.011750708330066329, y=-0.025475468141
+89605, z=0.8208680619044777, w=0.5704283884256461))), current_speed=geometry_msg
+s.msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(
+sec=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_m
+sgs.msg.Vector3(x=0.5952005982398987, y=0.0, z=0.0), angular=geometry_msgs.msg.V
+ector3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(s
+ec=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0
+, nanosec=0), distance_remaining=0.25148311257362366)
+[DEBUG] [1779130249.448691219] [drone0.drone0_interface]: Received feedback: as2
+_msgs.action.NavigateToPoint_Feedback(current_pose=geometry_msgs.msg.PoseStamped
+(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=45, nanosec=37
+0000000), frame_id='earth'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.
+msg.Point(x=1.9418076813818619, y=-1.20217996350386, z=0.9711460371405848), orie
+ntation=geometry_msgs.msg.Quaternion(x=0.012056654005827528, y=-0.02516121644290
+254, z=0.8162947569799177, w=0.5769613678647768))), current_speed=geometry_msgs.
+msg.TwistStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(se
+c=0, nanosec=0), frame_id=''), twist=geometry_msgs.msg.Twist(linear=geometry_msg
+s.msg.Vector3(x=0.5400557518005371, y=0.0, z=0.0), angular=geometry_msgs.msg.Vec
+tor3(x=0.0, y=0.0, z=0.0))), navigation_time=builtin_interfaces.msg.Duration(sec
+=0, nanosec=0), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0,
+nanosec=0), distance_remaining=0.20077085494995117)
+

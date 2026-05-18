@@ -1,4 +1,4 @@
-world_name: "corridor_world"
+world_name: "frontier_obstacle_world"
 drones:
   - model_type: "f330"
     model_name: "drone0"

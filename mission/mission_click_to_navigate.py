@@ -24,15 +24,21 @@ class Drone(DroneInterface):
         # cbk_group = None
         self.create_subscription(PointStamped, "/clicked_point", self.clicked_point_callback,
                                  10, callback_group=cbk_group)
-
+        
+        while not self.arm():
+            self.get_logger().info("Waiting for arming...")
+            self.sleep(1.0)
+        self.offboard()        
+        self.takeoff(height=1.0, speed=0.5, wait=True)
         self.keep_running = False
 
     def clicked_point_callback(self, msg: PointStamped):
         self.get_logger().info(f"Clicked point: {msg.point.x}, {msg.point.y}, {msg.point.z}")
         try:
-            z = msg.point.z
-            if msg.point.z == 0.0:
-                z = 1.0
+            # z = msg.point.z
+            # if msg.point.z == 0.0:
+            #     z = 2.0
+            z = 1.0
             self.navigate_to(msg.point.x, msg.point.y, z, speed=2.0,
                              yaw_mode=YawMode.PATH_FACING, wait=False)
         except BehaviorHandler.GoalRejected:

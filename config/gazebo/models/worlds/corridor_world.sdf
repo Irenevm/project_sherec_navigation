@@ -203,27 +203,14 @@
       </link>
       <pose>6 11 1 0 0 0</pose>
     </model>
-    <model name='obstaculo_tfm'>
-      <pose>6.0 0.0 0.5 0 0 0</pose> <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <cylinder>
-              <radius>0.3</radius>
-              <length>1.0</length>
-            </cylinder>
-          </geometry>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.3</radius>
-              <length>1.0</length>
-            </cylinder>
-          </geometry>
-          <material>
-            <ambient>1 0 0 1</ambient> <diffuse>1 0 0 1</diffuse>
-          </material>
-        </visual>
+    
+
+    <model name='column_center'>
+      <static>true</static>
+      <pose>5.0 -1.0 0.5 0 0 0</pose>
+      <link name='link'>
+        <collision name='col'><geometry><box><size>1.4 0.5 1.2</size></box></geometry></collision>
+        <visual name='vis'><geometry><box><size>1.4 0.5 1.2</size></box></geometry><material><ambient>0.5 0.4 0.3 1</ambient><diffuse>0.5 0.4 0.3 1</diffuse></material></visual>
       </link>
     </model>
 

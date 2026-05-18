@@ -1,6 +1,6 @@
 /**:
   ros__parameters:
-    tf_timeout_threshold: 0.05  # seconds
+    tf_timeout_threshold: 0.15  # seconds
 
   platform:
     ros__parameters:
