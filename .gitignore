@@ -1,3 +1,10 @@
 rosbags/*
 *.csv
 *.pyc
+
+# Logs generados en cada ejecución
+*.log
+
+# PNGs generados (visualizaciones del planner y análisis de telemetría)
+solve_graph_vis.png
+*_analysis.png

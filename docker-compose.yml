@@ -14,7 +14,12 @@ services:
     volumes:
       # X11
       - ~/.Xauthority:/root/.Xauthority
-      # 
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # Proyecto
       - .:/root/sherec_nav/
+      # Aerostack2 compilado con el loop reactivo
+      - ~/aerostack2_ws:/root/aerostack2_ws
+    stdin_open: true
+    tty: true
     network_mode: "host"
     command: tail -f /dev/null
