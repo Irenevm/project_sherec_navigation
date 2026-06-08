@@ -47,6 +47,7 @@ windows:
             namespace:=drone0
             use_sim_time:=true
             plugin_name:=a_star
+            2>&1 | tee /root/sherec_nav/nav_planner_diag.log
 
   # Mission execution
   - mission:
