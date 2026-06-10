@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <!--
+    NAV TEST WORLD — 3 escenarios de navegación reactiva
+    =====================================================
+    Room: x [-13, 13], y [-8, 8]
+    Drone spawn: x=-9, y=0
+
+    PARED DIVISORIA en x=0 con HUECO en y=[-1.5, 1.5]:
+      - Segmento norte: y=[1.5, 8]    → bloquea el este por arriba
+      - Segmento sur:  y=[-8, -1.5]   → bloquea el este por abajo
+      → El dron debe RODEAR por el hueco central para acceder al este
+
+    SALA CERRADA en esquina NE (x=[7,13], y=[4,8]):
+      - Paredes sur y oeste añadidas; norte y este son las paredes externas
+      - Sin ninguna puerta → INACCESIBLE
+
+    BLOQUE SÓLIDO en zona SW: x=[-8,-4], y=[-6,-3]
+      - Obstáculo grande y claro para test de posición ocupada
+
+    CASOS DE TEST:
+      Caso 1 - Libre desconocido:   x=9,  y=-4   (este, zona sur, rodear pared)
+      Caso 2 - Inaccesible:         x=10, y=6    (dentro sala cerrada NE)
+      Caso 3 - Directamente ocupado: x=-6, y=-4.5 (dentro del bloque sólido)
+  -->
+
+  <world name="nav_test_world">
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <plugin name="ignition::gazebo::systems::Physics"        filename="ignition-gazebo-physics-system"/>
+    <plugin name="ignition::gazebo::systems::SceneBroadcaster" filename="ignition-gazebo-scene-broadcaster-system"/>
+    <plugin name="ignition::gazebo::systems::UserCommands"   filename="ignition-gazebo-user-commands-system"/>
+    <plugin name="ignition::gazebo::systems::Sensors"        filename="ignition-gazebo-sensors-system">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <gravity>0 0 -9.81</gravity>
+
+    <scene>
+      <ambient>0.45 0.45 0.45 1</ambient>
+      <background>0.72 0.76 0.80 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1.0</intensity>
+      <direction>-0.4 0.2 -0.9</direction>
+    </light>
+
+    <!-- ==================== SUELO ==================== -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>36 24</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>36 24</size></plane></geometry>
+          <material><ambient>0.65 0.67 0.65 1</ambient><diffuse>0.65 0.67 0.65 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== PAREDES EXTERNAS ==================== -->
+    <model name="north_wall">
+      <static>true</static>
+      <pose>0 8.0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>26 0.2 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>26 0.2 2</size></box></geometry>
+          <material><ambient>0.55 0.58 0.60 1</ambient><diffuse>0.55 0.58 0.60 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="south_wall">
+      <static>true</static>
+      <pose>0 -8.0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>26 0.2 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>26 0.2 2</size></box></geometry>
+          <material><ambient>0.55 0.58 0.60 1</ambient><diffuse>0.55 0.58 0.60 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="west_wall">
+      <static>true</static>
+      <pose>-13 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.2 16 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.2 16 2</size></box></geometry>
+          <material><ambient>0.55 0.58 0.60 1</ambient><diffuse>0.55 0.58 0.60 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="east_wall">
+      <static>true</static>
+      <pose>13 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.2 16 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.2 16 2</size></box></geometry>
+          <material><ambient>0.55 0.58 0.60 1</ambient><diffuse>0.55 0.58 0.60 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== PARED DIVISORIA (x=0, hueco en y=[-1.5, 1.5]) ==================== -->
+    <!-- Segmento norte: cubre y=[1.5, 8.0], longitud=6.5m, centrada en y=4.75 -->
+    <model name="div_wall_north">
+      <static>true</static>
+      <pose>0 4.75 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.2 6.5 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.2 6.5 2</size></box></geometry>
+          <material><ambient>0.40 0.50 0.55 1</ambient><diffuse>0.40 0.50 0.55 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Segmento sur: cubre y=[-8.0, -1.5], longitud=6.5m, centrada en y=-4.75 -->
+    <model name="div_wall_south">
+      <static>true</static>
+      <pose>0 -4.75 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.2 6.5 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.2 6.5 2</size></box></geometry>
+          <material><ambient>0.40 0.50 0.55 1</ambient><diffuse>0.40 0.50 0.55 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== SALA CERRADA (NE) — CASO 2: INACCESIBLE ==================== -->
+    <!-- Sala en x=[7,13], y=[4,8]. Norte y este son las paredes externas ya definidas. -->
+    <!-- Pared sur de la sala: y=4, desde x=7 hasta x=13 (long=6m, centrada en x=10) -->
+    <model name="enc_south_wall">
+      <static>true</static>
+      <pose>10 4 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>6.2 0.2 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>6.2 0.2 2</size></box></geometry>
+          <material><ambient>0.70 0.35 0.30 1</ambient><diffuse>0.70 0.35 0.30 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Pared oeste de la sala: x=7, desde y=4 hasta y=8 (long=4m, centrada en y=6) -->
+    <model name="enc_west_wall">
+      <static>true</static>
+      <pose>7 6 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.2 4.2 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.2 4.2 2</size></box></geometry>
+          <material><ambient>0.70 0.35 0.30 1</ambient><diffuse>0.70 0.35 0.30 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== BLOQUE SÓLIDO — CASO 3: POSICIÓN OCUPADA ==================== -->
+    <!-- Bloque grande en zona SW: centro x=-6, y=-4.5, tamaño 4x3x2m -->
+    <model name="solid_block">
+      <static>true</static>
+      <pose>-6 -4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>4 3 2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>4 3 2</size></box></geometry>
+          <material><ambient>0.35 0.45 0.30 1</ambient><diffuse>0.35 0.45 0.30 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== OBSTÁCULOS ADICIONALES (hacen el mapa más realista) ==================== -->
+    <!-- Caja oeste, zona norte -->
+    <model name="box_nw">
+      <static>true</static>
+      <pose>-5 4 0.6 0 0 0.3</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.5 1.0 1.2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.5 1.0 1.2</size></box></geometry>
+          <material><ambient>0.45 0.40 0.35 1</ambient><diffuse>0.45 0.40 0.35 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Caja este, zona sur (cerca del objetivo libre) -->
+    <model name="box_se">
+      <static>true</static>
+      <pose>6 -5.5 0.6 0 0 -0.2</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.2 1.0 1.2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.2 1.0 1.2</size></box></geometry>
+          <material><ambient>0.45 0.40 0.35 1</ambient><diffuse>0.45 0.40 0.35 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,20 @@
+world_name: "nav_test_world"
+drones:
+  - model_type: "f330"
+    model_name: "drone0"
+    flight_time: 60
+    xyz:
+      - -9.0
+      - 0.0
+      - 0.3
+    payload:
+      - model_type: "lidar_3d"
+        model_name: "lidar"
+        xyz:
+        - 0.0
+        - 0.0
+        - 0.2
+        rpy:
+        - 0.0
+        - 0.0
+        - 0.0
