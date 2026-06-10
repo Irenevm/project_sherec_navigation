@@ -10,7 +10,6 @@
   state_estimator:
     ros__parameters:
       plugin_name: ground_truth
-      use_gazebo_tf: True
   controller_manager:
     ros__parameters:
       plugin_name: pid_speed_controller

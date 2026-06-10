@@ -54,16 +54,16 @@ windows:
         <%- end %>
   - navigation:
       panes:
-        # - ros2 launch as2_map_server scan2occ_grid-map_server.launch.py
-        #     namespace:=<%= drone_namespace %>
-        #     use_sim_time:=true
         # - ros2 launch indoor_farm2graph indoor_farm2graph-map_server.launch.py
         #     namespace:=<%= drone_namespace %>
         #     use_sim_time:=true
         # - ros2 launch as2_map_server depth2occ_grid-map_server.launch.py
         #     namespace:=<%= drone_namespace %>
         #     use_sim_time:=true
-        - ros2 launch as2_map_server point_cloud2occ_grid-map_server.launch.py
+        # - ros2 launch as2_map_server point_cloud2occ_grid-map_server.launch.py
+        #     namespace:=<%= drone_namespace %>
+        #     use_sim_time:=true
+        - ros2 launch as2_map_server scan2occ_grid-map_server.launch.py
             namespace:=<%= drone_namespace %>
             use_sim_time:=true
         - ros2 launch as2_behaviors_path_planning path_planner_behavior_launch.py
