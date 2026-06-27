@@ -4,7 +4,12 @@ rosbags/*
 
 # Logs generados en cada ejecución
 *.log
+*.txt
 
-# PNGs generados (visualizaciones del planner y análisis de telemetría)
-solve_graph_vis.png
-*_analysis.png
+# PNGs y visualizaciones generadas
+*.png
+
+# Artefactos de build/install
+build/
+install/
+log/

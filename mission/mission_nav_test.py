@@ -99,10 +99,29 @@ TEST_CASES = {
     4: {
         "name":   "Obstáculo dinámico en ruta",
         "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": "El dron inicia ruta, a los 10s aparece una caja en (2, -4) — debe replanificar",
-        # Obstacle will appear at this position after obstacle_delay seconds
-        "obstacle_delay": 10,
-        "obstacle_pos": (2.0, -4.0, 1.0),
+        "expect": "A t=20s aparece caja en (6.5,-3.8): justo en la ruta directa al goal. "
+                  "Hito A dispara cuando el dron llega a ~(4.7,-3.5); el camino directo "
+                  "a (9,-4) pasa por (6.5,-3.8). Hito B debe detectar el waypoint "
+                  "ocupado y replanificar rodeando por norte (y>-3) o sur (y<-4.5).",
+        # Obstacle at (6.5, -3.8): on the direct path from Hito A position (~4.7,-3.5)
+        # to goal (9,-4). The direct route goes east along y≈-4, passing through this point.
+        # Delay=20s: Hito A fires at ~t=30s, obstacle appears 10s before on the
+        # direct path so LiDAR has time to mark it before the drone arrives.
+        # Space to reroute: north (y towards -2, ~2m free) or south (y towards -8, ~4m free).
+        "obstacle_delay": 20,
+        "obstacle_pos": (6.5, -3.8, 1.0),
+        "obstacle_size": (1.0, 1.0, 2.0),
+    },
+    # ── Casos de diagnóstico del timer de replanificación ─────────────────────
+    5: {
+        "name":   "DIAG — goal en (9, -2): mismo x, menos al sur",
+        "x": 9.0,  "y": -2.0,  "z": TAKEOFF_HEIGHT,
+        "expect": "¿El timer replantea? ¿Se ve curso dramático al sur? Comparar con caso 1",
+    },
+    6: {
+        "name":   "DIAG — goal en (4, -4): más cercano, mismo sur",
+        "x": 4.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
+        "expect": "¿La ruta es más simple? ¿El timer se dispara más tarde o no se dispara?",
     },
 }
 
@@ -150,11 +169,13 @@ def run_test(case_num: int) -> None:
         # Caso 4: lanzar timer para spawn del obstáculo dinámico
         if case_num == 4:
             obs_x, obs_y, obs_z = case["obstacle_pos"]
+            obs_sx, obs_sy, obs_sz = case.get("obstacle_size", (1.0, 1.0, 2.0))
             delay = case["obstacle_delay"]
             def _spawn_later():
                 time.sleep(delay)
                 print(f"\n  [SPAWN] Spawning obstacle at ({obs_x}, {obs_y}, {obs_z}) after {delay}s...")
-                spawn_obstacle("dynamic_obstacle", obs_x, obs_y, obs_z)
+                spawn_obstacle("dynamic_obstacle", obs_x, obs_y, obs_z,
+                               sx=obs_sx, sy=obs_sy, sz=obs_sz)
             threading.Thread(target=_spawn_later, daemon=True).start()
 
         try:
@@ -200,7 +221,7 @@ def run_test(case_num: int) -> None:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2 or sys.argv[1] not in ("1", "2", "3", "4"):
+    if len(sys.argv) != 2 or sys.argv[1] not in ("1", "2", "3", "4", "5", "6"):
         print(__doc__)
         sys.exit(1)
 

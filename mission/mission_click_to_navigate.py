@@ -33,7 +33,7 @@ class Drone(DroneInterface):
 
         while not self.arm():
             self.get_logger().info("Waiting for arming...")
-            self.sleep(1.0)
+            time.sleep(1.0)
         self.offboard()
         self.takeoff(height=1.0, speed=0.5, wait=True)
         self.keep_running = False
@@ -44,7 +44,7 @@ class Drone(DroneInterface):
         self._tel_logger.start(msg.point.x, msg.point.y, z, session_label='click_nav')
         try:
             self._tel_logger.mark_event('NAV_START')
-            self.navigate_to(msg.point.x, msg.point.y, z, speed=2.0,
+            self.navigate_to(msg.point.x, msg.point.y, z, speed=1.0,
                              yaw_mode=YawMode.PATH_FACING, wait=False)
             threading.Thread(
                 target=self._monitor_nav_end,
@@ -86,7 +86,10 @@ if __name__ == '__main__':
         uav.get_logger().info('Keyboard interrupt, shutting down.\n')
 
     uav.shutdown()
-    rclpy.shutdown()
+    try:
+        rclpy.shutdown()
+    except Exception:
+        pass
 
     print("Clean exit")
     exit(0)
