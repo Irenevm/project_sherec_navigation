@@ -12,6 +12,7 @@ RUN apt-get update \
 
 RUN apt-get update && apt-get install -y -q \
     ros-humble-ros-gzharmonic \
+    ros-humble-plotjuggler-ros \
     python-is-python3 \
     && rm -rf /var/lib/apt/lists/*
 
