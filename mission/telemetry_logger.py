@@ -15,6 +15,9 @@ import os
 import threading
 from datetime import datetime
 
+from sensor_msgs.msg import LaserScan
+from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
+
 
 class TelemetryLogger:
     """
@@ -48,6 +51,12 @@ class TelemetryLogger:
         self._csv_writer = None
         self._file_path: str = ''
         self._running: bool = False
+
+        # LiDAR: latest scan stored for analysis in _tick
+        self._last_scan: LaserScan | None = None
+        self._scan_sub = None
+        # cone half-angle for forward range (PATH_FACING → 0° = forward)
+        self._fwd_cone_rad: float = math.pi / 4   # ±45°
 
     # ──────────────────────────────────────────────────────────────────────
     # Public API
@@ -86,7 +95,20 @@ class TelemetryLogger:
             'event',
             'goal_x', 'goal_y', 'goal_z',
             'dist_to_goal',
+            'lidar_fwd_min',   # min range in ±45° forward cone [m]
+            'lidar_all_min',   # min range across all rays [m]
         ])
+
+        # Subscribe to the LiDAR scan (BEST_EFFORT, common for sensor topics)
+        qos = QoSProfile(
+            depth=1,
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            durability=DurabilityPolicy.VOLATILE,
+        )
+        ns = self._drone.get_namespace().strip('/')
+        scan_topic = f'/{ns}/sensor_measurements/lidar/scan' if ns else '/sensor_measurements/lidar/scan'
+        self._scan_sub = self._drone.create_subscription(
+            LaserScan, scan_topic, self._lidar_cbk, qos)
 
         self._timer = self._drone.create_timer(
             1.0 / self.RATE_HZ, self._tick)
@@ -124,6 +146,13 @@ class TelemetryLogger:
                 pass
             self._timer = None
 
+        if self._scan_sub is not None:
+            try:
+                self._drone.destroy_subscription(self._scan_sub)
+            except Exception:
+                pass
+            self._scan_sub = None
+
         if self._csv_file is not None:
             self._csv_file.flush()
             self._csv_file.close()
@@ -135,8 +164,40 @@ class TelemetryLogger:
         return self._file_path
 
     # ──────────────────────────────────────────────────────────────────────
-    # Internal timer callback  (runs inside the ROS2 executor thread)
+    # Internal callbacks
     # ──────────────────────────────────────────────────────────────────────
+
+    def _lidar_cbk(self, msg: LaserScan) -> None:
+        """Store latest scan (no lock needed — only read in _tick, same thread)."""
+        self._last_scan = msg
+
+    def _compute_lidar_ranges(self) -> tuple[float, float]:
+        """
+        Returns (fwd_min, all_min) from the latest scan.
+        fwd_min: minimum valid range in the ±45° forward cone.
+        all_min: minimum valid range across all rays.
+        With PATH_FACING yaw, 0° in the scan frame = drone forward direction.
+        Returns (nan, nan) if no scan available.
+        """
+        scan = self._last_scan
+        if scan is None or not scan.ranges:
+            return float('nan'), float('nan')
+
+        fwd_min = float('inf')
+        all_min = float('inf')
+        for i, r in enumerate(scan.ranges):
+            if math.isinf(r) or math.isnan(r):
+                continue
+            if r < scan.range_min or r > scan.range_max:
+                continue
+            all_min = min(all_min, r)
+            angle = scan.angle_min + i * scan.angle_increment
+            if abs(angle) <= self._fwd_cone_rad:
+                fwd_min = min(fwd_min, r)
+
+        fwd = fwd_min if not math.isinf(fwd_min) else float('nan')
+        all_ = all_min if not math.isinf(all_min) else float('nan')
+        return fwd, all_
 
     def _tick(self) -> None:
         with self._lock:
@@ -169,6 +230,8 @@ class TelemetryLogger:
                 self._drone.get_clock().now().nanoseconds * 1e-9
             )
 
+            lidar_fwd, lidar_all = self._compute_lidar_ranges()
+
             self._csv_writer.writerow([
                 f'{timestamp_s:.6f}',
                 f'{pos[0]:.4f}', f'{pos[1]:.4f}', f'{pos[2]:.4f}',
@@ -178,4 +241,6 @@ class TelemetryLogger:
                 event,
                 f'{gx:.4f}', f'{gy:.4f}', f'{gz:.4f}',
                 f'{dist_to_goal:.4f}',
+                f'{lidar_fwd:.3f}' if not math.isnan(lidar_fwd) else '',
+                f'{lidar_all:.3f}' if not math.isnan(lidar_all) else '',
             ])
