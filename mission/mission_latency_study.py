@@ -105,6 +105,30 @@ CASES = {
             "reintento en frontier_stuck)."
         ),
     },
+    "abierto_var1": {
+        "goal": (9.0, -4.0, TAKEOFF_HEIGHT),
+        "obstacle_xy": (5.0, -1.0),
+        "desc": (
+            "Mismo goal lejano/frontera que 'abierto', obstáculo en otra posición "
+            "SOBRE la curva real de la ruta hacia (9,-4) (comprobado en vuelo: la "
+            "ruta pasa por (4.9,-0.8)/(5.3,-0.9) a esa altura), lejos de "
+            "solid_block/box_se/div_wall_south (>=3.7m). Corrige la posición "
+            "(0,-6) original, que quedaba a >5m de la trayectoria real y no "
+            "probaba nada (2026-08-14)."
+        ),
+    },
+    "abierto_var2": {
+        "goal": (9.0, -4.0, TAKEOFF_HEIGHT),
+        "obstacle_xy": (7.0, -3.0),
+        "desc": (
+            "Mismo goal lejano/frontera que 'abierto', obstáculo en otra posición "
+            "SOBRE la curva real de la ruta (comprobado en vuelo: pasa por "
+            "(6.9,-2.5)/(7.45,-3.08) a esa altura), más cerca del tramo final "
+            "junto a box_se (~2m de despeje) que 'abierto_var1'. Segunda posición "
+            "para verificar robustez espacial, ya sí sobre la trayectoria "
+            "(2026-08-14)."
+        ),
+    },
 }
 
 
