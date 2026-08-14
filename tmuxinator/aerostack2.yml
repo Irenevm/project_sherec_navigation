@@ -56,7 +56,11 @@ windows:
             --ros-args -r  __ns:=/drone0 -p use_sim_time:=true
         # - sleep 5 && python3 mission/mission_click_to_navigate.py
         # - sleep 5 && python3 mission/mission_path_planner_test.py
-        - sleep 5 && echo "Listo. Lanza: python3 mission/mission_nav_test.py <1|2|3>"
+        # - sleep 5 && echo "Listo. Lanza: python3 mission/mission_nav_test.py <1|2|3>"
+        # Estudio de latencia: NO se auto-lanza. Este pane debe quedar libre para
+        # lanzar mission_nav_test*.py (a mano o desde /run-mission vía docker exec).
+        # Para lanzar el estudio de latencia explícitamente, ejecutar en este pane:
+        #   ./run_latency_study.sh $(cat /root/sherec_nav/.latency_study_args 2>/dev/null || echo "recto 1.5 4.0 pilot1")
  
   # Visualization
   - visualization:

@@ -3,7 +3,7 @@
 tmux_session_list=()
 
 # Make a tmux list of sessions to be killed
-tmux_session_list=("drone0" "ground_station" )
+tmux_session_list=("drone" "drone0" "ground_station" )
 
 # If inside tmux session, get the current session name
 if [[ -n "$TMUX" ]]; then

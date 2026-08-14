@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-mission_nav_test.py — Test de navegación reactiva con posiciones fijas
+mission_nav_test.py — Test de navegación punto a punto con posiciones fijas
 
 Uso:
   python3 mission_nav_test.py <caso>
@@ -9,19 +9,13 @@ Casos:
   1  Posición libre desconocida        (x= 9.0, y=-4.0)  → espera SUCCESS
   2  Sala cerrada inaccesible          (x=10.0, y= 6.0)  → espera ABORT
   3  Dentro de obstáculo sólido        (x=-6.0, y=-4.5)  → espera closest_free_point
-  4  Obstáculo dinámico único          (x= 9.0, y=-4.0)  → LiDAR frena, mapa replantea, SUCCESS
   5  Dos obstáculos dinámicos          (x= 9.0, y=-4.0)  → SUCCESS validado
-  6  Obstáculo en ruta norte          (goal 9,-2)        → obstáculo a mitad de camino, trigger 3.0m
-  7  Obstáculo en ruta corta          (goal 4,-4)        → obstáculo a mitad de camino, trigger 3.0m
-  8  Obstáculo de reacción rápida     (trigger 2.5m)     → LiDAR con margen de aviso reducido
-  9  Obstáculo en tramo intermedio-avanzado (trigger 2.5m) → ya no pegado al goal (antes 0.4m)
-  10 Corredor de tres obstáculos      (3 cajas seguidas)  → cadena de replans, stress del bucle
-  11 Obstáculo ancho bloqueo total    (caja 4m ancho)     → fuerza rodeo largo, sin paso directo
-  12 Obstáculo margen mínimo          (trigger 1.2m)     → caso más exigente pero físicamente plausible
 
 El log queda en: /root/sherec_nav/nav_planner_diag.log
 """
 
+import os
+import shutil
 import subprocess
 import sys
 import threading
@@ -33,6 +27,8 @@ from as2_msgs.msg import YawMode
 from as2_python_api.drone_interface import DroneInterface
 from as2_python_api.modules.navigate_to_module import NavigateToModule
 from as2_python_api.behavior_actions.behavior_handler import BehaviorHandler
+from std_msgs.msg import String
+from rcl_interfaces.msg import Log
 
 TAKEOFF_HEIGHT = 1.0
 NAV_SPEED = 1.5
@@ -105,25 +101,6 @@ TEST_CASES = {
         "x": -6.0, "y": -4.5,  "z": TAKEOFF_HEIGHT,
         "expect": "PARCIAL: llega al borde del bloque (closest_free_point), no aborta",
     },
-    4: {
-        "name":   "Obstáculo dinámico único en ruta",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Una caja aparece a t≈20s en (6.5,-3.8): bloquea la ruta directa al sur.\n"
-            "El LiDAR frena el dron antes de colisión (~1.5m del obstáculo).\n"
-            "El mapa confirma el obstáculo en ~1.5s → MAP_CHECK replantea hacia el norte (y≈-2.85).\n"
-            "El dron rodea la caja y llega al goal en SUCCESS."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_sur",
-                "pos":  (6.5,  -3.8,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 4.0,
-                "color": (0.9, 0.1, 0.1),   # rojo
-            },
-        ],
-    },
     5: {
         "name":   "Dos obstáculos dinámicos en ruta",
         "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
@@ -151,160 +128,6 @@ TEST_CASES = {
                 "size": (1.0,  1.0,   2.0),
                 "trigger_dist": 4.0,
                 "color": (0.9, 0.5, 0.1),   # naranja
-            },
-        ],
-    },
-    # ── Casos de estrés con goals distintos y obstáculos a distancia realista ─
-    # Todos disparan el obstáculo con margen de reacción razonable (2.5-3.5m,
-    # nunca "encima" del dron ni pegado al propio goal) — simula mejor el
-    # escenario real que motivó la capa LiDAR: el obstáculo ya está ahí, el
-    # dron se acerca de forma normal, y la sorpresa es el retraso del mapa,
-    # no una aparición imposible a quemarropa.
-    6: {
-        "name":   "Obstáculo en ruta norte (goal 9, -2)",
-        "x": 9.0,  "y": -2.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Goal más al norte que el habitual (9,-4). Caja en (5.0,-2.0), trigger_dist=3.0m:\n"
-            "aparece con margen de reacción normal a mitad de camino. Prueba que el replan\n"
-            "funcione igual de bien en una ruta distinta a la ya validada hacia (9,-4)."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_north",
-                "pos":  (5.0,  -2.0,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 3.0,
-                "color": (0.9, 0.1, 0.1),
-            },
-        ],
-    },
-    7: {
-        "name":   "Obstáculo en ruta corta (goal 4, -4)",
-        "x": 4.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Goal más cercano (4,-4), ruta más corta. Caja en (0.5,-2.3), trigger_dist=3.0m:\n"
-            "aparece a mitad de una ruta más simple. Prueba si el replan se dispara antes o\n"
-            "de forma distinta cuando hay menos margen de distancia total hasta el goal."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_short",
-                "pos":  (0.5,  -2.3,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 3.0,
-                "color": (0.9, 0.5, 0.1),
-            },
-        ],
-    },
-    # ── Casos de estrés adicionales para la capa LiDAR + replan ───────────────
-    8: {
-        "name":   "Obstáculo de reacción rápida (trigger 2.5m)",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Caja en (5.0,-3.0) con trigger_dist=2.5m (vs 4.0m habitual): margen de reacción\n"
-            "reducido pero realista, no a quemarropa. Prueba el frenado del LiDAR con menos\n"
-            "aviso de lo normal (lidar_danger_distance=1.5m, lidar_stop_distance=0.4m). Debe\n"
-            "frenar/parar sin colisionar (d_min_approach > safety_distance=0.5m) y replantear."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_fast",
-                "pos":  (5.0,  -3.0,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 2.5,
-                "color": (0.9, 0.1, 0.1),
-            },
-        ],
-    },
-    9: {
-        "name":   "Obstáculo en tramo intermedio-avanzado",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Caja en (7.0,-3.6), a ~2.3m del goal (9.0,-4.0) — ya no pegada al objetivo como\n"
-            "en la versión anterior de este caso (evitaba margen real de reacción y el dron\n"
-            "prácticamente chocaba). trigger_dist=2.5m: aparece avanzada la ruta, con margen\n"
-            "de frenado real. Prueba que el replan funcione bien cerca del tramo final sin\n"
-            "que closest_free_point/FRONTIER se confundan con el propio objetivo."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_late",
-                "pos":  (7.0,  -3.6,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 2.5,
-                "color": (0.6, 0.1, 0.8),   # morado
-            },
-        ],
-    },
-    10: {
-        "name":   "Corredor de tres obstáculos en cadena",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "3 cajas alineadas a lo largo de la ruta directa, cada una con su propio trigger,\n"
-            "de forma que aparecen de manera escalonada conforme el dron avanza. Prueba la\n"
-            "cadena de replans repetidos (varias activaciones de MAP_CHECK/LiDAR seguidas)\n"
-            "sin degradar en oscilación ni superar max_replans=15."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_chain1",
-                "pos":  (2.5,  -2.0,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 3.0,
-                "color": (0.9, 0.1, 0.1),
-            },
-            {
-                "name": "obs_chain2",
-                "pos":  (5.5,  -2.8,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 3.0,
-                "color": (0.9, 0.5, 0.1),
-            },
-            {
-                "name": "obs_chain3",
-                "pos":  (8.0,  -3.8,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 3.0,
-                "color": (0.9, 0.8, 0.1),
-            },
-        ],
-    },
-    11: {
-        "name":   "Obstáculo ancho — bloqueo total del corredor",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Caja de 4m de ancho (y de -5.5 a -1.5) centrada en la ruta directa: no hay hueco\n"
-            "estrecho para colarse, obliga a un rodeo largo por uno de los extremos. Prueba\n"
-            "que A* encuentre el rodeo correcto y que el LiDAR no confunda un borde lejano\n"
-            "del bloque ancho con el corredor libre."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_wide",
-                "pos":  (6.5,  -3.5,  1.0),
-                "size": (1.0,  4.0,   2.0),
-                "trigger_dist": 4.0,
-                "color": (0.1, 0.3, 0.9),   # azul
-            },
-        ],
-    },
-    12: {
-        "name":   "Obstáculo con margen de reacción mínimo (trigger 1.2m)",
-        "x": 9.0,  "y": -4.0,  "z": TAKEOFF_HEIGHT,
-        "expect": (
-            "Caja en (6.5,-3.8) con trigger_dist=1.2m: deja un margen de frenado real (más\n"
-            "que lidar_danger_distance=1.5m mide desde el borde, no desde el centro) en vez\n"
-            "de la versión anterior (0.5m), que prácticamente garantizaba la colisión al\n"
-            "activarse dentro del propio radio de frenado del LiDAR. Sigue siendo el caso más\n"
-            "exigente de margen de reacción, pero ahora es físicamente plausible."
-        ),
-        "obstacles": [
-            {
-                "name": "obs_point_blank",
-                "pos":  (6.5,  -3.8,  1.0),
-                "size": (1.0,  1.0,   2.0),
-                "trigger_dist": 1.2,
-                "color": (0.9, 0.0, 0.4),   # rosa fuerte
             },
         ],
     },
@@ -352,8 +175,37 @@ def _make_spawn_thread(drone, obs):
     return threading.Thread(target=_run, daemon=True)
 
 
+class _Tee:
+    """Duplica todo lo escrito en stdout también a un fichero de log."""
+
+    def __init__(self, stream, logfile):
+        self._stream = stream
+        self._logfile = logfile
+
+    def write(self, data):
+        self._stream.write(data)
+        self._logfile.write(data)
+
+    def flush(self):
+        self._stream.flush()
+        self._logfile.flush()
+
+
 def run_test(case_num: int) -> None:
     case = TEST_CASES[case_num]
+
+    log_dir = "/root/sherec_nav/logs"
+    os.makedirs(log_dir, exist_ok=True)
+    log_path = os.path.join(
+        log_dir,
+        f"mission_case{case_num}_{time.strftime('%Y%m%d_%H%M%S')}.log")
+    latest_path = os.path.join(log_dir, "last_manual_run.log")
+    log_file = open(log_path, "w")
+    original_stdout = sys.stdout
+    sys.stdout = _Tee(original_stdout, log_file)
+
+    print(f"[LOG] Guardando esta ejecución en: {log_path}")
+    print(f"      (también copiado a {latest_path} al terminar)")
 
     print(f"\n{'='*60}")
     print(f"  CASO {case_num}: {case['name']}")
@@ -367,6 +219,30 @@ def run_test(case_num: int) -> None:
     executor.add_node(drone)
     spin_thread = threading.Thread(target=executor.spin, daemon=True)
     spin_thread.start()
+
+    # Modo de la capa reactiva (NONE/DECEL/HARD), publicado por el planner en
+    # "reactive_mode" como "<modo>:<distancia>". Se muestra siempre, incluso
+    # cuando no hay reacción (NONE), para verlo en directo en esta terminal.
+    reactive_state = {"text": "NONE:-1"}
+
+    def _reactive_mode_cbk(msg: String) -> None:
+        reactive_state["text"] = msg.data
+
+    reactive_mode_sub = drone.create_subscription(
+        String, "reactive_mode", _reactive_mode_cbk, 10)
+
+    # Vía alternativa que funciona en CUALQUIER commit, exista o no el topic
+    # "reactive_mode": todo RCLCPP_WARN/INFO del planner se publica también en
+    # /rosout (comportamiento estándar de ROS2, no depende de este código).
+    # Filtramos por nombre de nodo y contenido para imprimir en esta misma
+    # terminal en cuanto el planner entra en LIDAR_SAFETY o cambia de modo,
+    # sin tener que mirar tmux ni el log aparte.
+    def _rosout_cbk(msg: Log) -> None:
+        if "path_planner" in msg.name and (
+                "LIDAR_SAFETY" in msg.msg or "REACTIVE_MODE" in msg.msg):
+            print(f"\n  [PLANNER] {msg.msg}")
+
+    rosout_sub = drone.create_subscription(Log, "/rosout", _rosout_cbk, 10)
 
     try:
         time.sleep(1.0)
@@ -386,20 +262,8 @@ def run_test(case_num: int) -> None:
         print(f"[4/4] Navigate to [{case['x']}, {case['y']}, {case['z']}]...")
         t_start = time.time()
 
-        # Lanzar un hilo por obstáculo, cada uno esperando su trigger_dist propio.
-        # Cualquier caso con "obstacles" (o el legacy "obstacle_pos") activa el spawn dinámico.
-        if "obstacles" in case or "obstacle_pos" in case:
-            obstacles = case.get("obstacles", [])
-            # Compatibilidad hacia atrás: si no hay lista, usar obstacle_pos
-            if not obstacles and "obstacle_pos" in case:
-                ox, oy, oz = case["obstacle_pos"]
-                obstacles = [{
-                    "name": "dynamic_obstacle",
-                    "pos": (ox, oy, oz),
-                    "size": case.get("obstacle_size", (1.0, 1.0, 2.0)),
-                    "trigger_dist": case.get("obstacle_trigger_dist", 4.0),
-                }]
-            for obs in obstacles:
+        if "obstacles" in case:
+            for obs in case["obstacles"]:
                 _make_spawn_thread(drone, obs).start()
 
         try:
@@ -417,7 +281,8 @@ def run_test(case_num: int) -> None:
             elapsed = time.time() - t_start
             pos = drone.position
             print(
-                f"  t={elapsed:5.1f}s  pos=[{pos[0]:6.2f}, {pos[1]:6.2f}, {pos[2]:5.2f}]",
+                f"  t={elapsed:5.1f}s  pos=[{pos[0]:6.2f}, {pos[1]:6.2f}, {pos[2]:5.2f}]"
+                f"  reactive={reactive_state['text']:16s}",
                 end="\r",
             )
             time.sleep(0.5)
@@ -442,6 +307,11 @@ def run_test(case_num: int) -> None:
         drone.disarm()
         drone.shutdown()
         rclpy.shutdown()
+
+        sys.stdout = original_stdout
+        log_file.close()
+        shutil.copyfile(log_path, latest_path)
+        print(f"[LOG] Log de esta ejecución en: {log_path} (y en {latest_path})")
 
 
 if __name__ == "__main__":

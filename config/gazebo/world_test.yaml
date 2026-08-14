@@ -1,4 +1,6 @@
 world_name: "nav_test_world"
+world_bridges:
+  - set_entity_pose
 drones:
   - model_type: "f330"
     model_name: "drone0"
