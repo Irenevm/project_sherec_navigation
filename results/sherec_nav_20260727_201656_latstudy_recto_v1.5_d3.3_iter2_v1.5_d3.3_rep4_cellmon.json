@@ -1,0 +1,9 @@
+{
+  "obstacle_xy": [
+    -4.5,
+    0.0
+  ],
+  "t_cell_gt_thresh_sim": 26.3,
+  "t_cell_100_sim": 26.5,
+  "last_value": 100
+}

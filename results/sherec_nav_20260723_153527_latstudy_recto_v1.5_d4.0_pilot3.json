@@ -1,0 +1,20 @@
+{
+  "case": "recto",
+  "speed": 1.5,
+  "drop_dist_requested": 4.0,
+  "label": "pilot3",
+  "obstacle_xy": [
+    -4.0,
+    0.0
+  ],
+  "goal": [
+    2.0,
+    0.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 5.868058501065503,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260723_153527_latstudy_recto_v1.5_d4.0_pilot3.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_153527_latstudy_recto_v1.5_d4.0_pilot3_cellmon.json"
+}

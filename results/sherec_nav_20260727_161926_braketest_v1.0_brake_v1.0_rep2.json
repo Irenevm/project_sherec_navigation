@@ -1,0 +1,17 @@
+{
+  "case": "brake_test",
+  "speed": 1.0,
+  "label": "brake_v1.0_rep2",
+  "goal": [
+    9.0,
+    0.0,
+    1.0
+  ],
+  "t_brake_sim": 17.531000000000002,
+  "pos_at_brake": [
+    -4.084958619114778,
+    -0.023254343982572027,
+    1.0249466208539284
+  ],
+  "csv_path": "/root/sherec_nav/sherec_nav_20260727_161926_braketest_v1.0_brake_v1.0_rep2.csv"
+}

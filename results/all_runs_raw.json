@@ -1,0 +1,3340 @@
+[
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "pilot3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 5.868058501065503,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_153527_latstudy_recto_v1.5_d4.0_pilot3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_153527_latstudy_recto_v1.5_d4.0_pilot3_cellmon.json"
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "pilotoclean",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.208585682929882,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_155523_latstudy_recto_v1.5_d4.0_pilotoclean.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_155523_latstudy_recto_v1.5_d4.0_pilotoclean_cellmon.json",
+    "t_drop_sim": 173.205,
+    "drop_dist_actual": 3.1079587688753185,
+    "drone_pos_at_drop": [
+      -7.107159863339323,
+      -0.07046483294627631,
+      0.8671533919804111
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "pilotoclean2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7390908711257943,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_160009_latstudy_recto_v1.5_d4.0_pilotoclean2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_160009_latstudy_recto_v1.5_d4.0_pilotoclean2_cellmon.json",
+    "t_drop_sim": 25.979000000000003,
+    "t_drop_sim_ack": 26.465000000000003,
+    "drop_dist_actual": 3.7723347314182436,
+    "drone_pos_at_drop": [
+      -7.770347724477086,
+      -0.12242288346060744,
+      0.5853113675713407
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch1_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.22,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_161840_latstudy_recto_v1.5_d4.0_batch1_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_161840_latstudy_recto_v1.5_d4.0_batch1_rep1_cellmon.json",
+    "t_drop_sim": 30.581,
+    "t_drop_sim_ack": 31.884,
+    "drop_dist_actual": 3.83
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch1_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.31,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_161952_latstudy_recto_v1.5_d4.0_batch1_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_161952_latstudy_recto_v1.5_d4.0_batch1_rep2_cellmon.json",
+    "t_drop_sim": 30.247,
+    "t_drop_sim_ack": 30.841,
+    "drop_dist_actual": 3.35
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch1_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.86,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_162109_latstudy_recto_v1.5_d4.0_batch1_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_162109_latstudy_recto_v1.5_d4.0_batch1_rep3_cellmon.json",
+    "t_drop_sim": 31.729,
+    "t_drop_sim_ack": 32.228,
+    "drop_dist_actual": 3.46
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch1_rep4",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.15,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_162215_latstudy_recto_v1.5_d4.0_batch1_rep4.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_162215_latstudy_recto_v1.5_d4.0_batch1_rep4_cellmon.json",
+    "t_drop_sim": 25.946,
+    "t_drop_sim_ack": 26.429,
+    "drop_dist_actual": 3.26
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch1_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.21,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_162336_latstudy_recto_v1.5_d4.0_batch1_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_162336_latstudy_recto_v1.5_d4.0_batch1_rep5_cellmon.json",
+    "t_drop_sim": 23.452,
+    "t_drop_sim_ack": 23.921,
+    "drop_dist_actual": 3.51
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch2_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.227355686590536,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_163002_latstudy_recto_v1.5_d4.0_batch2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_163002_latstudy_recto_v1.5_d4.0_batch2_rep1_cellmon.json",
+    "t_drop_sim": 30.900000000000002,
+    "t_drop_sim_ack": 31.483,
+    "drop_dist_actual": 3.2889939984187095,
+    "drone_pos_at_drop": [
+      -7.288260547511019,
+      -0.06945569319230525,
+      0.8545197969310785
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch2_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "ABORTED",
+    "min_dist_to_obstacle": 4.998074704020785,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_163125_latstudy_recto_v1.5_d4.0_batch2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_163125_latstudy_recto_v1.5_d4.0_batch2_rep2_cellmon.json",
+    "t_drop_sim": 31.016000000000002,
+    "t_drop_sim_ack": 31.26,
+    "drop_dist_actual": 3.8329086040209996,
+    "drone_pos_at_drop": [
+      -7.83222746220605,
+      0.07225679685668253,
+      0.07796061678760607
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch2_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.78,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_163225_latstudy_recto_v1.5_d4.0_batch2_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_163225_latstudy_recto_v1.5_d4.0_batch2_rep3_cellmon.json",
+    "t_drop_sim": 32.895,
+    "t_drop_sim_ack": 33.433,
+    "drop_dist_actual": 3.66,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch2_rep4",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2834562667852862,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_163843_latstudy_recto_v1.5_d4.0_batch2_rep4.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_163843_latstudy_recto_v1.5_d4.0_batch2_rep4_cellmon.json",
+    "t_drop_sim": 26.015,
+    "t_drop_sim_ack": 27.206000000000003,
+    "drop_dist_actual": 3.4534975248451607,
+    "drone_pos_at_drop": [
+      -7.453262565985257,
+      -0.04028404742037613,
+      0.9798458146738388
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 4.0,
+    "label": "batch2_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.3252663512808682,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_164319_latstudy_recto_v1.5_d4.0_batch2_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_164319_latstudy_recto_v1.5_d4.0_batch2_rep5_cellmon.json",
+    "t_drop_sim": 31.696,
+    "t_drop_sim_ack": 32.291000000000004,
+    "drop_dist_actual": 3.177282637020161,
+    "drone_pos_at_drop": [
+      -7.175890914358678,
+      -0.09403114167011589,
+      0.7804315120245954
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "matA_v1.0_d2.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.07814716647913,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170229_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170229_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep1_cellmon.json",
+    "t_drop_sim": 39.372,
+    "t_drop_sim_ack": 39.924,
+    "drop_dist_actual": 1.947985113343578,
+    "drone_pos_at_drop": [
+      -5.947078273605073,
+      -0.059432299831658576,
+      0.8655643887797554
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "matA_v1.0_d2.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.078003525932887,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170357_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170357_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep2_cellmon.json",
+    "t_drop_sim": 26.007,
+    "t_drop_sim_ack": 26.451,
+    "drop_dist_actual": 2.1449660403369575,
+    "drone_pos_at_drop": [
+      -6.143184428900782,
+      -0.08740605194169619,
+      0.8176316897002128
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "matA_v1.0_d2.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0071377556986811,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170528_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170528_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep3_cellmon.json",
+    "t_drop_sim": 26.517000000000003,
+    "t_drop_sim_ack": 26.975,
+    "drop_dist_actual": 2.323626703229141,
+    "drone_pos_at_drop": [
+      -6.322586806517963,
+      -0.06950958313943004,
+      0.9047524128640014
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "matA_v1.0_d2.5_rep4",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2207572541160998,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170651_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep4.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170651_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep4_cellmon.json",
+    "t_drop_sim": 26.991000000000003,
+    "t_drop_sim_ack": 27.471,
+    "drop_dist_actual": 2.380197109689503,
+    "drone_pos_at_drop": [
+      -6.378436404933714,
+      -0.09153441243737762,
+      0.8192723932301177
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "matA_v1.0_d2.5_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0683676923399656,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170815_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170815_latstudy_recto_v1.0_d2.5_matA_v1.0_d2.5_rep5_cellmon.json",
+    "t_drop_sim": 26.115000000000002,
+    "t_drop_sim_ack": 26.55,
+    "drop_dist_actual": 2.127841390648928,
+    "drone_pos_at_drop": [
+      -6.12610771602704,
+      -0.08587760831001504,
+      0.8281855072846116
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.5,
+    "label": "matA_v0.5_d1.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.88,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_170937_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_170937_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep1_cellmon.json",
+    "t_drop_sim": 31.368,
+    "t_drop_sim_ack": 31.852,
+    "drop_dist_actual": 1.37,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.5,
+    "label": "matA_v0.5_d1.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 1.0,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171100_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171100_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep2_cellmon.json",
+    "t_drop_sim": 31.708,
+    "t_drop_sim_ack": 32.169,
+    "drop_dist_actual": 1.38,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.5,
+    "label": "matA_v0.5_d1.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9795277227276358,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171223_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171223_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep3_cellmon.json",
+    "t_drop_sim": 31.323,
+    "t_drop_sim_ack": 31.745,
+    "drop_dist_actual": 1.4360373260926338,
+    "drone_pos_at_drop": [
+      -5.432830083816573,
+      -0.09592263987960672,
+      0.8478542574081495
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.5,
+    "label": "matA_v0.5_d1.5_rep4",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.91,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171412_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep4.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171412_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep4_cellmon.json",
+    "t_drop_sim": 33.659,
+    "t_drop_sim_ack": 34.141,
+    "drop_dist_actual": 1.36,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.5,
+    "label": "matA_v0.5_d1.5_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.032023044538284,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171534_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171534_latstudy_recto_v0.5_d1.5_matA_v0.5_d1.5_rep5_cellmon.json",
+    "t_drop_sim": 29.708000000000002,
+    "t_drop_sim_ack": 30.148000000000003,
+    "drop_dist_actual": 1.4236463802818473,
+    "drone_pos_at_drop": [
+      -5.423342625408972,
+      -0.02940725732709782,
+      1.039439829278725
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 1.5,
+    "label": "matB_v1.5_d1.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7497612437686042,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171718_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171718_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep1_cellmon.json",
+    "t_drop_sim": 31.004,
+    "t_drop_sim_ack": 31.448,
+    "drop_dist_actual": 1.0768946037503455,
+    "drone_pos_at_drop": [
+      -5.07014231128072,
+      -0.12040523740009074,
+      0.8562110157967803
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 1.5,
+    "label": "matB_v1.5_d1.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.74,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171840_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171840_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep2_cellmon.json",
+    "t_drop_sim": 25.682,
+    "t_drop_sim_ack": 26.14,
+    "drop_dist_actual": 1.27,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 1.5,
+    "label": "matB_v1.5_d1.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7343672203444729,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_171957_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_171957_latstudy_recto_v1.5_d1.5_matB_v1.5_d1.5_rep3_cellmon.json",
+    "t_drop_sim": 25.714000000000002,
+    "t_drop_sim_ack": 26.110000000000003,
+    "drop_dist_actual": 1.2848230858185765,
+    "drone_pos_at_drop": [
+      -5.281072093563935,
+      -0.09810531557507617,
+      0.8598777517544139
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.0,
+    "label": "matB_v1.5_d2.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7428873522001411,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172107_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172107_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep1_cellmon.json",
+    "t_drop_sim": 29.429000000000002,
+    "t_drop_sim_ack": 29.848000000000003,
+    "drop_dist_actual": 1.9173676206553036,
+    "drone_pos_at_drop": [
+      -5.917108271818818,
+      -0.031535168641461796,
+      0.887433009479926
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.0,
+    "label": "matB_v1.5_d2.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.99,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172225_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172225_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep2_cellmon.json",
+    "t_drop_sim": 30.191,
+    "t_drop_sim_ack": 30.636,
+    "drop_dist_actual": 1.6,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.0,
+    "label": "matB_v1.5_d2.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.72,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172347_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172347_latstudy_recto_v1.5_d2.0_matB_v1.5_d2.0_rep3_cellmon.json",
+    "t_drop_sim": 24.297,
+    "t_drop_sim_ack": 24.746,
+    "drop_dist_actual": 1.98,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.5,
+    "label": "matB_v1.5_d2.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7565103509981194,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172528_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172528_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep1_cellmon.json",
+    "t_drop_sim": 27.92,
+    "t_drop_sim_ack": 28.351000000000003,
+    "drop_dist_actual": 1.844064968009747,
+    "drone_pos_at_drop": [
+      -5.842307918880557,
+      -0.08048067016854776,
+      0.8277321126295049
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.5,
+    "label": "matB_v1.5_d2.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.78,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172634_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172634_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep2_cellmon.json",
+    "t_drop_sim": 30.551,
+    "t_drop_sim_ack": 31.03,
+    "drop_dist_actual": 1.85,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.5,
+    "label": "matB_v1.5_d2.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7416203925610678,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172757_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172757_latstudy_recto_v1.5_d2.5_matB_v1.5_d2.5_rep3_cellmon.json",
+    "t_drop_sim": 25.381,
+    "t_drop_sim_ack": 25.848000000000003,
+    "drop_dist_actual": 1.9089617290928558,
+    "drone_pos_at_drop": [
+      -5.908760746702887,
+      -0.027700090025529273,
+      1.010929907099681
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "matB_v1.5_d3.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.93,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_172908_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_172908_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep1_cellmon.json",
+    "t_drop_sim": 25.786,
+    "t_drop_sim_ack": 26.168,
+    "drop_dist_actual": 2.65,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "matB_v1.5_d3.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.8837479123135726,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_173026_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_173026_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep2_cellmon.json",
+    "t_drop_sim": 25.724,
+    "t_drop_sim_ack": 26.203000000000003,
+    "drop_dist_actual": 2.632511100245787,
+    "drone_pos_at_drop": [
+      -6.632247409188692,
+      -0.03725949190072818,
+      0.9784367994661505
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "matB_v1.5_d3.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.73,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_173142_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_173142_latstudy_recto_v1.5_d3.0_matB_v1.5_d3.0_rep3_cellmon.json",
+    "t_drop_sim": 27.813,
+    "t_drop_sim_ack": 28.234,
+    "drop_dist_actual": 2.71,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "fixval_v1.5_d3.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0324450598368744,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_173847_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_173847_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep1_cellmon.json",
+    "t_drop_sim": 30.975,
+    "t_drop_sim_ack": 31.569000000000003,
+    "drop_dist_actual": 3.4643678601353027,
+    "drone_pos_at_drop": [
+      -7.462853819528062,
+      -0.1024114003339862,
+      0.7503808845882872
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "fixval_v1.5_d3.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "ABORTED",
+    "min_dist_to_obstacle": 5.001608940029341,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_174018_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_174018_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep2_cellmon.json",
+    "t_drop_sim": 25.916,
+    "t_drop_sim_ack": 26.340000000000003,
+    "drop_dist_actual": 3.3513291980574627,
+    "drone_pos_at_drop": [
+      -7.326904604677397,
+      0.4038726843063419,
+      1.667016137691151
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "fixval_v1.5_d3.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2224535742818374,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_174127_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_174127_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep3_cellmon.json",
+    "t_drop_sim": 22.540000000000003,
+    "t_drop_sim_ack": 23.002000000000002,
+    "drop_dist_actual": 3.1880925638871345,
+    "drone_pos_at_drop": [
+      -7.187470216267765,
+      -0.0629906050008426,
+      0.881365669928586
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "fixval_v1.5_d3.5_rep4",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.82,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_174254_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep4.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_174254_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep4_cellmon.json",
+    "t_drop_sim": 29.931,
+    "t_drop_sim_ack": 30.335,
+    "drop_dist_actual": 3.39,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "fixval_v1.5_d3.5_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "ABORTED",
+    "min_dist_to_obstacle": 4.9936097863465685,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_174420_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_174420_latstudy_recto_v1.5_d3.5_fixval_v1.5_d3.5_rep5_cellmon.json",
+    "t_drop_sim": 22.182000000000002,
+    "t_drop_sim_ack": 22.616,
+    "drop_dist_actual": 3.4576263269920617,
+    "drone_pos_at_drop": [
+      -7.457439886505463,
+      -0.03590610407311647,
+      0.9719491765361239
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "diag_v1.5_d3.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.98,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_175050_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_175050_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep1_cellmon.json",
+    "t_drop_sim": 31.607,
+    "t_drop_sim_ack": 32.189,
+    "drop_dist_actual": 3.28,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "diag_v1.5_d3.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.8,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_175203_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_175203_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep2_cellmon.json",
+    "t_drop_sim": 29.122,
+    "t_drop_sim_ack": 29.71,
+    "drop_dist_actual": 2.93,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "diag_v1.5_d3.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9191385214087604,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_175318_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_175318_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep3_cellmon.json",
+    "t_drop_sim": 22.932000000000002,
+    "t_drop_sim_ack": 23.321,
+    "drop_dist_actual": 2.8635137428728235,
+    "drone_pos_at_drop": [
+      -6.8615249547847705,
+      -0.10670468014826157,
+      0.803210969217379
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.5,
+    "label": "diag_v1.5_d3.5_rep5",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7478214643413313,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_175709_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep5.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_175709_latstudy_recto_v1.5_d3.5_diag_v1.5_d3.5_rep5_cellmon.json",
+    "t_drop_sim": 28.42,
+    "t_drop_sim_ack": 29.324,
+    "drop_dist_actual": 3.05011631195095,
+    "drone_pos_at_drop": [
+      -7.050047752271822,
+      -0.020450557226425928,
+      0.8662282441655176
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "clean_v1.5_d2.8_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9166424193562933,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194039_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194039_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep1_cellmon.json",
+    "t_drop_sim": 33.21,
+    "t_drop_sim_ack": 33.74,
+    "drop_dist_actual": 2.5237022471409056,
+    "drone_pos_at_drop": [
+      -6.52352239737745,
+      -0.030128759656270564,
+      0.9693217561589712
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "clean_v1.5_d2.8_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.16756340840891,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194147_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194147_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep2_cellmon.json",
+    "t_drop_sim": 30.525000000000002,
+    "t_drop_sim_ack": 31.081000000000003,
+    "drop_dist_actual": 2.682071378822009,
+    "drone_pos_at_drop": [
+      -6.68192487417715,
+      -0.02803302277799365,
+      0.9569232428918688
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "clean_v1.5_d2.8_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0738507268153414,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194306_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194306_latstudy_recto_v1.5_d2.8_clean_v1.5_d2.8_rep3_cellmon.json",
+    "t_drop_sim": 31.627000000000002,
+    "t_drop_sim_ack": 32.238,
+    "drop_dist_actual": 2.676439393715025,
+    "drone_pos_at_drop": [
+      -6.675939917259616,
+      -0.05170481066833285,
+      0.9879504926841708
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "clean_v1.5_d3.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.237152154972373,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194422_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194422_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep1_cellmon.json",
+    "t_drop_sim": 29.512,
+    "t_drop_sim_ack": 30.099,
+    "drop_dist_actual": 2.894277350720788,
+    "drone_pos_at_drop": [
+      -6.893718983014159,
+      -0.05684918855046516,
+      0.9160501015356889
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "clean_v1.5_d3.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.950808468923564,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194540_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194540_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep2_cellmon.json",
+    "t_drop_sim": 29.902,
+    "t_drop_sim_ack": 30.466,
+    "drop_dist_actual": 2.785135652564256,
+    "drone_pos_at_drop": [
+      -6.784421583982914,
+      -0.06306382350132698,
+      0.8970979773997912
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "clean_v1.5_d3.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7388409016046803,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194645_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194645_latstudy_recto_v1.5_d3.0_clean_v1.5_d3.0_rep3_cellmon.json",
+    "t_drop_sim": 36.259,
+    "t_drop_sim_ack": 36.835,
+    "drop_dist_actual": 2.4232465106371612,
+    "drone_pos_at_drop": [
+      -6.4222248858505075,
+      -0.07035803921140704,
+      0.8919814441451748
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.2,
+    "label": "clean_v1.5_d3.2_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.74,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194759_latstudy_recto_v1.5_d3.2_clean_v1.5_d3.2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194759_latstudy_recto_v1.5_d3.2_clean_v1.5_d3.2_rep1_cellmon.json",
+    "t_drop_sim": 30.108,
+    "t_drop_sim_ack": 30.582,
+    "drop_dist_actual": 2.59,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.2,
+    "label": "clean_v1.5_d3.2_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1830816646443356,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_194920_latstudy_recto_v1.5_d3.2_clean_v1.5_d3.2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_194920_latstudy_recto_v1.5_d3.2_clean_v1.5_d3.2_rep2_cellmon.json",
+    "t_drop_sim": 24.392000000000003,
+    "t_drop_sim_ack": 24.877000000000002,
+    "drop_dist_actual": 2.960085992050931,
+    "drone_pos_at_drop": [
+      -6.959145856981651,
+      -0.0745981061721567,
+      0.884840484288231
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "orig_v1.5_d2.8_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.87,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_195331_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_195331_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep1_cellmon.json",
+    "t_drop_sim": 26.01,
+    "t_drop_sim_ack": 26.471,
+    "drop_dist_actual": 2.49,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "orig_v1.5_d2.8_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9385270854779477,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_195449_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_195449_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep2_cellmon.json",
+    "t_drop_sim": 25.865000000000002,
+    "t_drop_sim_ack": 26.316000000000003,
+    "drop_dist_actual": 2.7745491282952477,
+    "drone_pos_at_drop": [
+      -6.773860040392891,
+      -0.061833175848151234,
+      0.9125475777198663
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 2.8,
+    "label": "orig_v1.5_d2.8_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.92,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_195604_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_195604_latstudy_recto_v1.5_d2.8_orig_v1.5_d2.8_rep3_cellmon.json",
+    "t_drop_sim": 25.684,
+    "t_drop_sim_ack": 26.198,
+    "drop_dist_actual": 2.71,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "orig_v1.5_d3.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0428269013647358,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_195720_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_195720_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep1_cellmon.json",
+    "t_drop_sim": 25.607000000000003,
+    "t_drop_sim_ack": 26.101000000000003,
+    "drop_dist_actual": 2.9771710059634424,
+    "drone_pos_at_drop": [
+      -6.97649180312895,
+      -0.06359044468744408,
+      0.8557383574434188
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "orig_v1.5_d3.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.81,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_195843_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_195843_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep2_cellmon.json",
+    "t_drop_sim": 29.638,
+    "t_drop_sim_ack": 30.135,
+    "drop_dist_actual": 2.99,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.0,
+    "label": "orig_v1.5_d3.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.8205360366906567,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200003_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200003_latstudy_recto_v1.5_d3.0_orig_v1.5_d3.0_rep3_cellmon.json",
+    "t_drop_sim": 24.201,
+    "t_drop_sim_ack": 24.721,
+    "drop_dist_actual": 2.5534369424069334,
+    "drone_pos_at_drop": [
+      -6.553262803117398,
+      -0.0298207489100752,
+      1.0132183764830776
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.2,
+    "label": "orig_v1.5_d3.2_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.8,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200107_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200107_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep1_cellmon.json",
+    "t_drop_sim": 25.825,
+    "t_drop_sim_ack": 26.324,
+    "drop_dist_actual": 2.43,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.2,
+    "label": "orig_v1.5_d3.2_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0616708458281328,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200221_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200221_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep2_cellmon.json",
+    "t_drop_sim": 26.851000000000003,
+    "t_drop_sim_ack": 27.358,
+    "drop_dist_actual": 2.8766235842548724,
+    "drone_pos_at_drop": [
+      -6.8751268184596235,
+      -0.09278482238811118,
+      0.7790225846523635
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.5,
+    "drop_dist_requested": 3.2,
+    "label": "orig_v1.5_d3.2_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.97,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200415_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200415_latstudy_recto_v1.5_d3.2_orig_v1.5_d3.2_rep3_cellmon.json",
+    "t_drop_sim": 28.296,
+    "t_drop_sim_ack": 28.803,
+    "drop_dist_actual": 2.97,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v1.0_d1.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.57,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200531_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200531_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep1_cellmon.json",
+    "t_drop_sim": 27.503,
+    "t_drop_sim_ack": 27.577,
+    "drop_dist_actual": 0.58,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v1.0_d1.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.53,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200649_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200649_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep2_cellmon.json",
+    "t_drop_sim": 27.813,
+    "t_drop_sim_ack": 27.903,
+    "drop_dist_actual": 0.55,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v1.0_d1.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7259096330322473,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200806_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200806_latstudy_recto_v1.0_d1.0_orig_v1.0_d1.0_rep3_cellmon.json",
+    "t_drop_sim": 28.345000000000002,
+    "t_drop_sim_ack": 28.824,
+    "drop_dist_actual": 0.7795535281559072,
+    "drone_pos_at_drop": [
+      -4.772594510903782,
+      -0.10392990417424784,
+      0.8433333118588083
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.5,
+    "label": "orig_v1.0_d1.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9691938007568677,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_200916_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_200916_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep1_cellmon.json",
+    "t_drop_sim": 27.655,
+    "t_drop_sim_ack": 28.143,
+    "drop_dist_actual": 1.4194005460731205,
+    "drone_pos_at_drop": [
+      -5.416830430682685,
+      -0.08537822254058354,
+      0.871636348743051
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.5,
+    "label": "orig_v1.0_d1.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7411168310513095,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201026_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201026_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep2_cellmon.json",
+    "t_drop_sim": 27.852,
+    "t_drop_sim_ack": 28.325000000000003,
+    "drop_dist_actual": 1.048344641485034,
+    "drone_pos_at_drop": [
+      -5.044150363747227,
+      -0.09368300388500449,
+      0.8590177496812547
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 1.5,
+    "label": "orig_v1.0_d1.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9143288570490756,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201137_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201137_latstudy_recto_v1.0_d1.5_orig_v1.0_d1.5_rep3_cellmon.json",
+    "t_drop_sim": 28.428,
+    "t_drop_sim_ack": 28.886000000000003,
+    "drop_dist_actual": 1.3268987557891532,
+    "drone_pos_at_drop": [
+      -5.323919652796815,
+      -0.08886540976760143,
+      0.8275681271406686
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.0,
+    "label": "orig_v1.0_d2.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.8577978493318542,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201247_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201247_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep1_cellmon.json",
+    "t_drop_sim": 27.664,
+    "t_drop_sim_ack": 28.119000000000003,
+    "drop_dist_actual": 1.7183240241552176,
+    "drone_pos_at_drop": [
+      -5.717899540560906,
+      -0.038191890888084556,
+      1.004025428649812
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.0,
+    "label": "orig_v1.0_d2.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1024348979552399,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201427_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201427_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep2_cellmon.json",
+    "t_drop_sim": 32.091,
+    "t_drop_sim_ack": 32.557,
+    "drop_dist_actual": 1.9096450574292017,
+    "drone_pos_at_drop": [
+      -5.90639670448725,
+      -0.11133665382043745,
+      0.8903303370847059
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.0,
+    "label": "orig_v1.0_d2.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1060543190425618,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201557_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201557_latstudy_recto_v1.0_d2.0_orig_v1.0_d2.0_rep3_cellmon.json",
+    "t_drop_sim": 30.509,
+    "t_drop_sim_ack": 30.990000000000002,
+    "drop_dist_actual": 1.9531820948974956,
+    "drone_pos_at_drop": [
+      -5.9491554854926125,
+      -0.12535226045918463,
+      0.9173215795214681
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v0.5_d1.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7348998325394136,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201728_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201728_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep1_cellmon.json",
+    "t_drop_sim": 33.821000000000005,
+    "t_drop_sim_ack": 34.269000000000005,
+    "drop_dist_actual": 0.9249860872449681,
+    "drone_pos_at_drop": [
+      -4.919450710177276,
+      -0.10104282830195212,
+      0.8704739844953734
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v0.5_d1.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.737707087130049,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_201845_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_201845_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep2_cellmon.json",
+    "t_drop_sim": 31.403000000000002,
+    "t_drop_sim_ack": 31.865000000000002,
+    "drop_dist_actual": 0.8328122791154631,
+    "drone_pos_at_drop": [
+      -4.829351155179867,
+      -0.07584822771371745,
+      0.9213814590072126
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.0,
+    "label": "orig_v0.5_d1.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7427989976329861,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202000_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202000_latstudy_recto_v0.5_d1.0_orig_v0.5_d1.0_rep3_cellmon.json",
+    "t_drop_sim": 33.029,
+    "t_drop_sim_ack": 33.451,
+    "drop_dist_actual": 0.7628826965788799,
+    "drone_pos_at_drop": [
+      -4.758252998174871,
+      -0.08391900558444328,
+      0.8888629201955596
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.2,
+    "label": "orig_v0.5_d1.2_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7828909867666712,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202118_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202118_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep1_cellmon.json",
+    "t_drop_sim": 32.726,
+    "t_drop_sim_ack": 33.157000000000004,
+    "drop_dist_actual": 0.9839468560282102,
+    "drone_pos_at_drop": [
+      -4.981692960088631,
+      -0.06656085636634869,
+      0.9342240285609832
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.2,
+    "label": "orig_v0.5_d1.2_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "ABORTED",
+    "min_dist_to_obstacle": 5.0,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202236_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202236_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep2_cellmon.json",
+    "t_drop_sim": 35.962,
+    "t_drop_sim_ack": 36.336,
+    "drop_dist_actual": 1.18,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.2,
+    "label": "orig_v0.5_d1.2_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9660816144694103,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202346_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202346_latstudy_recto_v0.5_d1.2_orig_v0.5_d1.2_rep3_cellmon.json",
+    "t_drop_sim": 33.026,
+    "t_drop_sim_ack": 33.471000000000004,
+    "drop_dist_actual": 1.1732952594240484,
+    "drone_pos_at_drop": [
+      -5.168930504204065,
+      -0.10111004959041393,
+      0.6690227729664555
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.4,
+    "label": "orig_v0.5_d1.4_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.9166686361574129,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202530_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202530_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep1_cellmon.json",
+    "t_drop_sim": 31.788,
+    "t_drop_sim_ack": 32.247,
+    "drop_dist_actual": 1.3207115699249505,
+    "drone_pos_at_drop": [
+      -5.320164958283526,
+      -0.03799386600337225,
+      1.0290480729659228
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.4,
+    "label": "orig_v0.5_d1.4_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.98,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202654_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202654_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep2_cellmon.json",
+    "t_drop_sim": 32.577,
+    "t_drop_sim_ack": 33.05,
+    "drop_dist_actual": 1.2,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.4,
+    "label": "orig_v0.5_d1.4_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.7694537189548116,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_202816_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_202816_latstudy_recto_v0.5_d1.4_orig_v0.5_d1.4_rep3_cellmon.json",
+    "t_drop_sim": 31.942000000000004,
+    "t_drop_sim_ack": 32.427,
+    "drop_dist_actual": 1.2316354846074806,
+    "drone_pos_at_drop": [
+      -5.227119044835854,
+      -0.10537939431143416,
+      0.8761040625137904
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.2,
+    "label": "hi_v1.0_d2.2_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.75,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_204516_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_204516_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep1_cellmon.json",
+    "t_drop_sim": 34.019,
+    "t_drop_sim_ack": 34.59,
+    "drop_dist_actual": 1.67,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.2,
+    "label": "hi_v1.0_d2.2_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.78,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_204629_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_204629_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep2_cellmon.json",
+    "t_drop_sim": 30.058,
+    "t_drop_sim_ack": 30.579,
+    "drop_dist_actual": 1.86,
+    "reconstructed_from_text": true
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.2,
+    "label": "hi_v1.0_d2.2_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0575138733948701,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_204744_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_204744_latstudy_recto_v1.0_d2.2_hi_v1.0_d2.2_rep3_cellmon.json",
+    "t_drop_sim": 28.106,
+    "t_drop_sim_ack": 28.574,
+    "drop_dist_actual": 2.0542070093615825,
+    "drone_pos_at_drop": [
+      -6.0518597031220756,
+      -0.09817431443123965,
+      0.8067667100976967
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "hi_v1.0_d2.5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2076162686022767,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_204916_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_204916_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep1_cellmon.json",
+    "t_drop_sim": 26.953000000000003,
+    "t_drop_sim_ack": 27.439,
+    "drop_dist_actual": 2.498247969597495,
+    "drone_pos_at_drop": [
+      -6.495189996292235,
+      -0.12357103220885336,
+      0.7236568846932819
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "hi_v1.0_d2.5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0195937686224374,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205050_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205050_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep2_cellmon.json",
+    "t_drop_sim": 28.034000000000002,
+    "t_drop_sim_ack": 28.516000000000002,
+    "drop_dist_actual": 2.0912832679255278,
+    "drone_pos_at_drop": [
+      -6.090941854194739,
+      -0.03778715498607178,
+      0.9898579825468402
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.5,
+    "label": "hi_v1.0_d2.5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.184974570640942,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205219_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205219_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep3_cellmon.json",
+    "t_drop_sim": 27.308000000000003,
+    "t_drop_sim_ack": 27.722,
+    "drop_dist_actual": 2.260000571306143,
+    "drone_pos_at_drop": [
+      -6.2583271464187735,
+      -0.08695448264542033,
+      0.7953260053971196
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.8,
+    "label": "hi_v1.0_d2.8_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.3095277149689022,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205354_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205354_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep1_cellmon.json",
+    "t_drop_sim": 25.433,
+    "t_drop_sim_ack": 25.866000000000003,
+    "drop_dist_actual": 2.5642773429135963,
+    "drone_pos_at_drop": [
+      -6.562502864263457,
+      -0.09538009237568572,
+      0.7864237296011566
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.8,
+    "label": "hi_v1.0_d2.8_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1538575658615904,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205528_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205528_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep2_cellmon.json",
+    "t_drop_sim": 26.573,
+    "t_drop_sim_ack": 27.045,
+    "drop_dist_actual": 2.63055173747982,
+    "drone_pos_at_drop": [
+      -6.628941708327595,
+      -0.0920213984553926,
+      0.7985550421569564
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 1.0,
+    "drop_dist_requested": 2.8,
+    "label": "hi_v1.0_d2.8_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2156835992613517,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205725_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205725_latstudy_recto_v1.0_d2.8_hi_v1.0_d2.8_rep3_cellmon.json",
+    "t_drop_sim": 26.12,
+    "t_drop_sim_ack": 26.544,
+    "drop_dist_actual": 2.670443428933837,
+    "drone_pos_at_drop": [
+      -6.670331137389106,
+      -0.024489259403068172,
+      0.9926374341696362
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.6,
+    "label": "hi_v0.5_d1.6_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0176268739172638,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_205847_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205847_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep1_cellmon.json",
+    "t_drop_sim": 29.950000000000003,
+    "t_drop_sim_ack": 30.428,
+    "drop_dist_actual": 1.5331929017616905,
+    "drone_pos_at_drop": [
+      -5.530061497894702,
+      -0.09794021989281637,
+      0.8296950630308203
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.6,
+    "label": "hi_v0.5_d1.6_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "COLLISION",
+    "min_dist_to_obstacle": 0.99615018001214,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210032_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210032_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep2_cellmon.json",
+    "t_drop_sim": 31.923000000000002,
+    "t_drop_sim_ack": 32.361000000000004,
+    "drop_dist_actual": 1.4475729000869693,
+    "drone_pos_at_drop": [
+      -5.443905805764336,
+      -0.10297244848133758,
+      0.8886158078469066
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.6,
+    "label": "hi_v0.5_d1.6_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.0971542052495946,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210158_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210158_latstudy_recto_v0.5_d1.6_hi_v0.5_d1.6_rep3_cellmon.json",
+    "t_drop_sim": 32.010000000000005,
+    "t_drop_sim_ack": 32.489000000000004,
+    "drop_dist_actual": 1.4986989373136226,
+    "drone_pos_at_drop": [
+      -5.497652566926129,
+      -0.05599369147108495,
+      0.9028846978061502
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.8,
+    "label": "hi_v0.5_d1.8_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1086453229234337,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210341_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210341_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep1_cellmon.json",
+    "t_drop_sim": 31.022000000000002,
+    "t_drop_sim_ack": 31.465000000000003,
+    "drop_dist_actual": 1.6251140735399974,
+    "drone_pos_at_drop": [
+      -5.624578795109735,
+      -0.04170719958910969,
+      1.0361376691077653
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.8,
+    "label": "hi_v0.5_d1.8_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1415694065606175,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210522_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210522_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep2_cellmon.json",
+    "t_drop_sim": 31.629,
+    "t_drop_sim_ack": 32.057,
+    "drop_dist_actual": 1.5901340643654491,
+    "drone_pos_at_drop": [
+      -5.586046478413074,
+      -0.11394257750669072,
+      0.6271454519627988
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 1.8,
+    "label": "hi_v0.5_d1.8_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.2397951562706766,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210709_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210709_latstudy_recto_v0.5_d1.8_hi_v0.5_d1.8_rep3_cellmon.json",
+    "t_drop_sim": 30.487000000000002,
+    "t_drop_sim_ack": 30.961000000000002,
+    "drop_dist_actual": 1.7282967310584465,
+    "drone_pos_at_drop": [
+      -5.723364042326741,
+      -0.13048359361447,
+      0.6233379853739712
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 2.0,
+    "label": "hi_v0.5_d2.0_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1620739337030206,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_210855_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_210855_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep1_cellmon.json",
+    "t_drop_sim": 29.719,
+    "t_drop_sim_ack": 30.172,
+    "drop_dist_actual": 1.9982620298609823,
+    "drone_pos_at_drop": [
+      -5.995080852632315,
+      -0.1127099438561211,
+      0.6197991504565875
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 2.0,
+    "label": "hi_v0.5_d2.0_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.1186187165459232,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_211111_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_211111_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep2_cellmon.json",
+    "t_drop_sim": 32.094,
+    "t_drop_sim_ack": 32.549,
+    "drop_dist_actual": 1.8058745133883718,
+    "drone_pos_at_drop": [
+      -5.804266996289492,
+      -0.07617981495240932,
+      0.8322127230662227
+    ]
+  },
+  {
+    "case": "recto",
+    "speed": 0.5,
+    "drop_dist_requested": 2.0,
+    "label": "hi_v0.5_d2.0_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "SUCCESS",
+    "min_dist_to_obstacle": 1.110215934594446,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260723_211255_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_211255_latstudy_recto_v0.5_d2.0_hi_v0.5_d2.0_rep3_cellmon.json",
+    "t_drop_sim": 30.476000000000003,
+    "t_drop_sim_ack": 30.946,
+    "drop_dist_actual": 1.8604046426030263,
+    "drone_pos_at_drop": [
+      -5.857851063942926,
+      -0.09744156415530754,
+      0.8673398473344344
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep1",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.8979426962906283,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_142347_detprobe_d3.0_d3_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_142347_detprobe_d3.0_d3_rep1_cellmon.json",
+    "t_drop_sim": 28.57,
+    "t_drop_sim_ack": 29.251,
+    "drop_dist_actual": 2.8979426962906283,
+    "drone_pos_at_drop": [
+      -8.89559086320982,
+      -0.11672799098760894,
+      0.45380032890767735
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep1",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.9275103222248675,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_142715_detprobe_d3.0_d3_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_142715_detprobe_d3.0_d3_rep1_cellmon.json",
+    "t_drop_sim": 30.262,
+    "t_drop_sim_ack": 30.941000000000003,
+    "drop_dist_actual": 2.9275103222248675,
+    "drone_pos_at_drop": [
+      -8.92577010194258,
+      -0.10092570193983619,
+      0.4023687594705764
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep1",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.74012206343435,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_142925_detprobe_d3.0_d3_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_142925_detprobe_d3.0_d3_rep1_cellmon.json",
+    "t_drop_sim": 27.612000000000002,
+    "t_drop_sim_ack": 28.236,
+    "drop_dist_actual": 2.74012206343435,
+    "drone_pos_at_drop": [
+      -8.740122056903237,
+      0.0001891879863325733,
+      1.019457805003182
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep1",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.663514959372917,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_143257_detprobe_d3.0_d3_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_143257_detprobe_d3.0_d3_rep1_cellmon.json",
+    "t_drop_sim": 28.970000000000002,
+    "t_drop_sim_ack": 29.431,
+    "drop_dist_actual": 2.663514959372917,
+    "drone_pos_at_drop": [
+      -8.663494716057915,
+      -0.010384427518036048,
+      0.992875638847262
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 1.0,
+    "label": "d1_rep1",
+    "obstacle_xy": [
+      -8.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 1.0939820764808106,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_143440_detprobe_d1.0_d1_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_143440_detprobe_d1.0_d1_rep1_cellmon.json",
+    "t_drop_sim": 25.597,
+    "t_drop_sim_ack": 26.029,
+    "drop_dist_actual": 1.0939820764808106,
+    "drone_pos_at_drop": [
+      -9.091837376429734,
+      -0.06846843865827652,
+      0.6239063604001431
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 1.0,
+    "label": "d1_rep2",
+    "obstacle_xy": [
+      -8.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 1.0100959700676715,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_143600_detprobe_d1.0_d1_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_143600_detprobe_d1.0_d1_rep2_cellmon.json",
+    "t_drop_sim": 23.391000000000002,
+    "t_drop_sim_ack": 23.84,
+    "drop_dist_actual": 1.0100959700676715,
+    "drone_pos_at_drop": [
+      -9.008197233779732,
+      -0.061904818438033436,
+      0.7283715028983958
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 1.0,
+    "label": "d1_rep3",
+    "obstacle_xy": [
+      -8.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 0.8421292987215052,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_143720_detprobe_d1.0_d1_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_143720_detprobe_d1.0_d1_rep3_cellmon.json",
+    "t_drop_sim": 21.968,
+    "t_drop_sim_ack": 22.458000000000002,
+    "drop_dist_actual": 0.8421292987215052,
+    "drone_pos_at_drop": [
+      -8.84211711011754,
+      0.004530851184620364,
+      1.048353372211996
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 2.0,
+    "label": "d2_rep1",
+    "obstacle_xy": [
+      -7.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 1.9744374408460155,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_143842_detprobe_d2.0_d2_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_143842_detprobe_d2.0_d2_rep1_cellmon.json",
+    "t_drop_sim": 20.506,
+    "t_drop_sim_ack": 21.014000000000003,
+    "drop_dist_actual": 1.9744374408460155,
+    "drone_pos_at_drop": [
+      -8.973896795637382,
+      -0.0462022508871568,
+      0.8472568912487055
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 2.0,
+    "label": "d2_rep2",
+    "obstacle_xy": [
+      -7.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 1.868231565099429,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144001_detprobe_d2.0_d2_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144001_detprobe_d2.0_d2_rep2_cellmon.json",
+    "t_drop_sim": 23.314,
+    "t_drop_sim_ack": 23.799000000000003,
+    "drop_dist_actual": 1.868231565099429,
+    "drone_pos_at_drop": [
+      -8.866607723887958,
+      -0.07787673565115397,
+      0.7828308820456387
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 2.0,
+    "label": "d2_rep3",
+    "obstacle_xy": [
+      -7.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 1.5755428737193737,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144123_detprobe_d2.0_d2_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144123_detprobe_d2.0_d2_rep3_cellmon.json",
+    "t_drop_sim": 29.567,
+    "t_drop_sim_ack": 30.183000000000003,
+    "drop_dist_actual": 1.5755428737193737,
+    "drone_pos_at_drop": [
+      -8.57554132592296,
+      -0.00220844669993158,
+      0.9817175548043101
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep1",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 3.099279715840464,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144236_detprobe_d3.0_d3_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144236_detprobe_d3.0_d3_rep1_cellmon.json",
+    "t_drop_sim": 21.196,
+    "t_drop_sim_ack": 21.696,
+    "drop_dist_actual": 3.099279715840464,
+    "drone_pos_at_drop": [
+      -9.098216393216536,
+      -0.08117843201532873,
+      0.6328608689844456
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep2",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.886886481296543,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144351_detprobe_d3.0_d3_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144351_detprobe_d3.0_d3_rep2_cellmon.json",
+    "t_drop_sim": 20.094,
+    "t_drop_sim_ack": 20.863,
+    "drop_dist_actual": 2.886886481296543,
+    "drone_pos_at_drop": [
+      -8.88688035866155,
+      -0.005945642681487231,
+      1.046865456223627
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 3.0,
+    "label": "d3_rep3",
+    "obstacle_xy": [
+      -6.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 2.9252150507362455,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144518_detprobe_d3.0_d3_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144518_detprobe_d3.0_d3_rep3_cellmon.json",
+    "t_drop_sim": 18.839000000000002,
+    "t_drop_sim_ack": 19.262,
+    "drop_dist_actual": 2.9252150507362455,
+    "drone_pos_at_drop": [
+      -8.92447932421979,
+      -0.06560316505179685,
+      0.7992662388839806
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 4.0,
+    "label": "d4_rep1",
+    "obstacle_xy": [
+      -5.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 3.9076576057858974,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144635_detprobe_d4.0_d4_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144635_detprobe_d4.0_d4_rep1_cellmon.json",
+    "t_drop_sim": 21.441000000000003,
+    "t_drop_sim_ack": 21.833000000000002,
+    "drop_dist_actual": 3.9076576057858974,
+    "drone_pos_at_drop": [
+      -8.906905017762572,
+      -0.07668863173905831,
+      0.777917696569353
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 4.0,
+    "label": "d4_rep2",
+    "obstacle_xy": [
+      -5.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 3.8050342284101557,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144824_detprobe_d4.0_d4_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144824_detprobe_d4.0_d4_rep2_cellmon.json",
+    "t_drop_sim": 23.016000000000002,
+    "t_drop_sim_ack": 23.625,
+    "drop_dist_actual": 3.8050342284101557,
+    "drone_pos_at_drop": [
+      -8.804325145820375,
+      -0.07345518532856381,
+      0.767034108207711
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 4.0,
+    "label": "d4_rep3",
+    "obstacle_xy": [
+      -5.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 3.821417139742628,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_144936_detprobe_d4.0_d4_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144936_detprobe_d4.0_d4_rep3_cellmon.json",
+    "t_drop_sim": 24.166,
+    "t_drop_sim_ack": 24.557000000000002,
+    "drop_dist_actual": 3.821417139742628,
+    "drone_pos_at_drop": [
+      -8.821388556566385,
+      -0.01478024567490044,
+      1.0112059334536594
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 5.0,
+    "label": "d5_rep1",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 5.004032217483129,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145049_detprobe_d5.0_d5_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145049_detprobe_d5.0_d5_rep1_cellmon.json",
+    "t_drop_sim": 22.540000000000003,
+    "t_drop_sim_ack": 23.022000000000002,
+    "drop_dist_actual": 5.004032217483129,
+    "drone_pos_at_drop": [
+      -9.00376357759637,
+      -0.0518506810861711,
+      0.7997552898634679
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 5.0,
+    "label": "d5_rep2",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 4.86919726891682,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145202_detprobe_d5.0_d5_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145202_detprobe_d5.0_d5_rep2_cellmon.json",
+    "t_drop_sim": 22.524,
+    "t_drop_sim_ack": 22.996000000000002,
+    "drop_dist_actual": 4.86919726891682,
+    "drone_pos_at_drop": [
+      -8.868936761364884,
+      -0.050367226017115053,
+      0.8106818596340297
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 5.0,
+    "label": "d5_rep3",
+    "obstacle_xy": [
+      -4.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 4.777436990014874,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145316_detprobe_d5.0_d5_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145316_detprobe_d5.0_d5_rep3_cellmon.json",
+    "t_drop_sim": 23.240000000000002,
+    "t_drop_sim_ack": 23.692,
+    "drop_dist_actual": 4.777436990014874,
+    "drone_pos_at_drop": [
+      -8.77740619240337,
+      -0.01715419331566892,
+      1.02141599351978
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 6.0,
+    "label": "d6_rep1",
+    "obstacle_xy": [
+      -3.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 5.646091164507856,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145429_detprobe_d6.0_d6_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145429_detprobe_d6.0_d6_rep1_cellmon.json",
+    "t_drop_sim": 29.002000000000002,
+    "t_drop_sim_ack": 29.638,
+    "drop_dist_actual": 5.646091164507856,
+    "drone_pos_at_drop": [
+      -8.645941419821797,
+      -0.04112082044788049,
+      0.8455268439615806
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 6.0,
+    "label": "d6_rep3",
+    "obstacle_xy": [
+      -3.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 5.597211566496761,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145722_detprobe_d6.0_d6_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145722_detprobe_d6.0_d6_rep3_cellmon.json",
+    "t_drop_sim": 29.335,
+    "t_drop_sim_ack": 29.969,
+    "drop_dist_actual": 5.597211566496761,
+    "drone_pos_at_drop": [
+      -8.597191272716914,
+      -0.015072383578524206,
+      0.9614323479977992
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 7.0,
+    "label": "d7_rep1",
+    "obstacle_xy": [
+      -2.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 6.874074112279107,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145829_detprobe_d7.0_d7_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145829_detprobe_d7.0_d7_rep1_cellmon.json",
+    "t_drop_sim": 22.189,
+    "t_drop_sim_ack": 22.602,
+    "drop_dist_actual": 6.874074112279107,
+    "drone_pos_at_drop": [
+      -8.873806249886563,
+      -0.06068393631119943,
+      0.7874230820766773
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 7.0,
+    "label": "d7_rep2",
+    "obstacle_xy": [
+      -2.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 7.068809551066954,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_145944_detprobe_d7.0_d7_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_145944_detprobe_d7.0_d7_rep2_cellmon.json",
+    "t_drop_sim": 23.648000000000003,
+    "t_drop_sim_ack": 24.101000000000003,
+    "drop_dist_actual": 7.068809551066954,
+    "drone_pos_at_drop": [
+      -9.068013571950708,
+      -0.10607834829024154,
+      0.5743849207061367
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 7.0,
+    "label": "d7_rep3",
+    "obstacle_xy": [
+      -2.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 6.930961302599297,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_150125_detprobe_d7.0_d7_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_150125_detprobe_d7.0_d7_rep3_cellmon.json",
+    "t_drop_sim": 25.066000000000003,
+    "t_drop_sim_ack": 25.478,
+    "drop_dist_actual": 6.930961302599297,
+    "drone_pos_at_drop": [
+      -8.930696326207482,
+      -0.060605379489458704,
+      0.802953091239722
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 8.0,
+    "label": "d8_rep1",
+    "obstacle_xy": [
+      -1.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 7.875686108400526,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_150239_detprobe_d8.0_d8_rep1.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_150239_detprobe_d8.0_d8_rep1_cellmon.json",
+    "t_drop_sim": 23.546000000000003,
+    "t_drop_sim_ack": 24.026,
+    "drop_dist_actual": 7.875686108400526,
+    "drone_pos_at_drop": [
+      -8.875363894251722,
+      -0.07124051634696792,
+      0.8028255022981436
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 8.0,
+    "label": "d8_rep2",
+    "obstacle_xy": [
+      -1.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 7.9291241910209855,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_150352_detprobe_d8.0_d8_rep2.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_150352_detprobe_d8.0_d8_rep2_cellmon.json",
+    "t_drop_sim": 24.226000000000003,
+    "t_drop_sim_ack": 25.114,
+    "drop_dist_actual": 7.9291241910209855,
+    "drone_pos_at_drop": [
+      -8.928819121409518,
+      -0.06955412716009626,
+      0.790090016620472
+    ]
+  },
+  {
+    "case": "probe",
+    "speed": 0.3,
+    "drop_dist_requested": 8.0,
+    "label": "d8_rep3",
+    "obstacle_xy": [
+      -1.0,
+      0.0
+    ],
+    "goal": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "collision_dist_threshold": 1.0,
+    "outcome": "N/A_PROBE",
+    "min_dist_to_obstacle": 7.733215848520065,
+    "csv_path": "/root/sherec_nav/sherec_nav_20260724_150504_detprobe_d8.0_d8_rep3.csv",
+    "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_150504_detprobe_d8.0_d8_rep3_cellmon.json",
+    "t_drop_sim": 22.007,
+    "t_drop_sim_ack": 22.531000000000002,
+    "drop_dist_actual": 7.733215848520065,
+    "drone_pos_at_drop": [
+      -8.733215179452026,
+      -0.003216845454798021,
+      1.015892579129377
+    ]
+  }
+]

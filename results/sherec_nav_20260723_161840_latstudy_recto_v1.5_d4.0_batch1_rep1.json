@@ -1,0 +1,23 @@
+{
+  "case": "recto",
+  "speed": 1.5,
+  "drop_dist_requested": 4.0,
+  "label": "batch1_rep1",
+  "obstacle_xy": [
+    -4.0,
+    0.0
+  ],
+  "goal": [
+    2.0,
+    0.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 1.22,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260723_161840_latstudy_recto_v1.5_d4.0_batch1_rep1.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_161840_latstudy_recto_v1.5_d4.0_batch1_rep1_cellmon.json",
+  "t_drop_sim": 30.581,
+  "t_drop_sim_ack": 31.884,
+  "drop_dist_actual": 3.83
+}

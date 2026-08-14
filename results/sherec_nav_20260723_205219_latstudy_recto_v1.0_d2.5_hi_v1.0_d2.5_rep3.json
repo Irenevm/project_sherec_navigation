@@ -1,0 +1,28 @@
+{
+  "case": "recto",
+  "speed": 1.0,
+  "drop_dist_requested": 2.5,
+  "label": "hi_v1.0_d2.5_rep3",
+  "obstacle_xy": [
+    -4.0,
+    0.0
+  ],
+  "goal": [
+    2.0,
+    0.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 1.184974570640942,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260723_205219_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep3.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260723_205219_latstudy_recto_v1.0_d2.5_hi_v1.0_d2.5_rep3_cellmon.json",
+  "t_drop_sim": 27.308000000000003,
+  "t_drop_sim_ack": 27.722,
+  "drop_dist_actual": 2.260000571306143,
+  "drone_pos_at_drop": [
+    -6.2583271464187735,
+    -0.08695448264542033,
+    0.7953260053971196
+  ]
+}

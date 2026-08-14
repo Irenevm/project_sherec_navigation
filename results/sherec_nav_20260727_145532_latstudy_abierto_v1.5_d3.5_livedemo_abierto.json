@@ -1,0 +1,28 @@
+{
+  "case": "abierto",
+  "speed": 1.5,
+  "drop_dist_requested": 3.5,
+  "label": "livedemo_abierto",
+  "obstacle_xy": [
+    4.0,
+    -4.0
+  ],
+  "goal": [
+    9.0,
+    -4.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 1.4835486342933437,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260727_145532_latstudy_abierto_v1.5_d3.5_livedemo_abierto.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260727_145532_latstudy_abierto_v1.5_d3.5_livedemo_abierto_cellmon.json",
+  "t_drop_sim": 81.138,
+  "t_drop_sim_ack": 81.557,
+  "drop_dist_actual": 3.0804278243976864,
+  "drone_pos_at_drop": [
+    2.6382846684916186,
+    -1.236891797764973,
+    1.0108971281051728
+  ]
+}

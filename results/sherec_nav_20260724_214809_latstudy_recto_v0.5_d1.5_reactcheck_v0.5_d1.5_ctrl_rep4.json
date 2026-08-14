@@ -1,0 +1,24 @@
+{
+  "case": "recto",
+  "speed": 0.5,
+  "drop_dist_requested": 1.5,
+  "label": "reactcheck_v0.5_d1.5_ctrl_rep4",
+  "obstacle_xy": [
+    -4.0,
+    0.0
+  ],
+  "goal": [
+    2.0,
+    0.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 1.01,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260724_214809_latstudy_recto_v0.5_d1.5_reactcheck_v0.5_d1.5_ctrl_rep4.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_214809_latstudy_recto_v0.5_d1.5_reactcheck_v0.5_d1.5_ctrl_rep4_cellmon.json",
+  "t_drop_sim": 30.948,
+  "t_drop_sim_ack": 31.349,
+  "drop_dist_actual": 1.46,
+  "reconstructed_from_text": true
+}

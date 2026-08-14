@@ -1,0 +1,28 @@
+{
+  "case": "abierto_temprano",
+  "speed": 1.5,
+  "drop_dist_requested": 3.5,
+  "label": "livewatch",
+  "obstacle_xy": [
+    -4.0,
+    0.0
+  ],
+  "goal": [
+    9.0,
+    -4.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "ABORTED",
+  "min_dist_to_obstacle": 1.5447206413806536,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260813_181908_latstudy_abierto_temprano_v1.5_d3.5_livewatch.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260813_181908_latstudy_abierto_temprano_v1.5_d3.5_livewatch_cellmon.json",
+  "t_drop_sim": 26.836000000000002,
+  "t_drop_sim_ack": 27.323,
+  "drop_dist_actual": 3.1558723209064135,
+  "drone_pos_at_drop": [
+    -7.153860904658306,
+    -0.11265655742619793,
+    0.5232827371102617
+  ]
+}

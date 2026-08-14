@@ -1,0 +1,28 @@
+{
+  "case": "probe",
+  "speed": 0.3,
+  "drop_dist_requested": 4.0,
+  "label": "d4_rep1",
+  "obstacle_xy": [
+    -5.0,
+    0.0
+  ],
+  "goal": [
+    2.0,
+    0.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "N/A_PROBE",
+  "min_dist_to_obstacle": 3.9076576057858974,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260724_144635_detprobe_d4.0_d4_rep1.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260724_144635_detprobe_d4.0_d4_rep1_cellmon.json",
+  "t_drop_sim": 21.441000000000003,
+  "t_drop_sim_ack": 21.833000000000002,
+  "drop_dist_actual": 3.9076576057858974,
+  "drone_pos_at_drop": [
+    -8.906905017762572,
+    -0.07668863173905831,
+    0.777917696569353
+  ]
+}

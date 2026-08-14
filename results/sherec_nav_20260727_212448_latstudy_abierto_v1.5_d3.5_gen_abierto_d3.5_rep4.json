@@ -1,0 +1,24 @@
+{
+  "case": "abierto",
+  "speed": 1.5,
+  "drop_dist_requested": 3.5,
+  "label": "gen_abierto_d3.5_rep4",
+  "obstacle_xy": [
+    4.0,
+    -4.0
+  ],
+  "goal": [
+    9.0,
+    -4.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "SUCCESS",
+  "min_dist_to_obstacle": 1.26,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260727_212448_latstudy_abierto_v1.5_d3.5_gen_abierto_d3.5_rep4.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260727_212448_latstudy_abierto_v1.5_d3.5_gen_abierto_d3.5_rep4_cellmon.json",
+  "t_drop_sim": 35.385,
+  "t_drop_sim_ack": 35.857,
+  "drop_dist_actual": 3.04,
+  "reconstructed_from_text": true
+}

@@ -1,0 +1,24 @@
+{
+  "case": "giro",
+  "speed": 1.5,
+  "drop_dist_requested": 3.5,
+  "label": "iter12_giro_d3.5_rep1",
+  "obstacle_xy": [
+    0.5,
+    2.5
+  ],
+  "goal": [
+    2.0,
+    3.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "COLLISION",
+  "min_dist_to_obstacle": 0.98,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260725_093104_latstudy_giro_v1.5_d3.5_iter12_giro_d3.5_rep1.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260725_093104_latstudy_giro_v1.5_d3.5_iter12_giro_d3.5_rep1_cellmon.json",
+  "t_drop_sim": 45.162,
+  "t_drop_sim_ack": 45.662,
+  "drop_dist_actual": 3.29,
+  "reconstructed_from_text": true
+}

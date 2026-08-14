@@ -1,0 +1,24 @@
+{
+  "case": "abierto",
+  "speed": 1.5,
+  "drop_dist_requested": 3.5,
+  "label": "final_abierto_d3.5_rep9",
+  "obstacle_xy": [
+    4.0,
+    -4.0
+  ],
+  "goal": [
+    9.0,
+    -4.0,
+    1.0
+  ],
+  "collision_dist_threshold": 1.0,
+  "outcome": "CRASH",
+  "min_dist_to_obstacle": 1.68,
+  "csv_path": "/root/sherec_nav/sherec_nav_20260725_114937_latstudy_abierto_v1.5_d3.5_final_abierto_d3.5_rep9.csv",
+  "cellmon_json_path": "/root/sherec_nav/sherec_nav_20260725_114937_latstudy_abierto_v1.5_d3.5_final_abierto_d3.5_rep9_cellmon.json",
+  "t_drop_sim": 61.348,
+  "t_drop_sim_ack": 61.855,
+  "drop_dist_actual": 3.23,
+  "reconstructed_from_text": true
+}
