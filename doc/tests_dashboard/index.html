@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Estudio de latencia y navegación reactiva (aerostack2)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-icon">🛰️</span>
+      <div>
+        <h1>Estudio de navegación reactiva</h1>
+        <p class="subtitle">aerostack2 · rama <code>feat/replan-modify-waypoints</code> · bitácora viva de pruebas</p>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span id="last-update" class="pill"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ KPIs ============ -->
+  <section class="kpi-grid" id="kpi-grid"></section>
+
+  <!-- ============ Tabs ============ -->
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="timeline">📅 Cronología</button>
+    <button class="tab-btn" data-tab="charts">📊 Gráficas</button>
+    <button class="tab-btn" data-tab="tests">🧪 Pruebas</button>
+    <button class="tab-btn" data-tab="gallery">🖼️ Galería</button>
+    <button class="tab-btn" data-tab="bugs">🐞 Bugs</button>
+    <button class="tab-btn" data-tab="conclusions">✅ Conclusiones</button>
+    <button class="tab-btn" data-tab="future">🚧 Trabajo futuro</button>
+  </nav>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="tab-panel active" id="panel-timeline">
+    <h2>Cronología completa de baterías</h2>
+    <p class="panel-desc">Cada punto es una batería de repeticiones ejecutada en la sesión, en orden cronológico. Las baterías descartadas (fondo experimental de planificador) aparecen marcadas.</p>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- ============ CHARTS ============ -->
+  <section class="tab-panel" id="panel-charts">
+    <h2>Gráficas</h2>
+    <div class="charts-grid">
+      <div class="card chart-card">
+        <h3>Colisiones y éxitos por velocidad</h3>
+        <canvas id="chart-speed-outcome" width="480" height="320"></canvas>
+      </div>
+      <div class="card chart-card">
+        <h3>% de colisión por velocidad</h3>
+        <canvas id="chart-collision-pct" width="480" height="320"></canvas>
+      </div>
+      <div class="card chart-card">
+        <h3>Distancia mínima real vs resultado (todas las pruebas de vuelo)</h3>
+        <canvas id="chart-scatter" width="960" height="360"></canvas>
+      </div>
+      <div class="card chart-card">
+        <h3>Evolución temporal de resultados (nº repeticiones acumuladas)</h3>
+        <canvas id="chart-evolution" width="960" height="320"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTS ============ -->
+  <section class="tab-panel" id="panel-tests">
+    <h2>Todas las pruebas</h2>
+    <div class="filters card">
+      <div class="filter-group">
+        <label for="f-speed">Velocidad</label>
+        <select id="f-speed"><option value="">Todas</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-outcome">Resultado</label>
+        <select id="f-outcome"><option value="">Todos</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-batch">Configuración / batch</label>
+        <select id="f-batch"><option value="">Todas</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-valid">Validez</label>
+        <select id="f-valid">
+          <option value="">Todas</option>
+          <option value="true">Solo válidas</option>
+          <option value="false">Solo descartadas</option>
+        </select>
+      </div>
+      <div class="filter-group filter-search">
+        <label for="f-search">Buscar label</label>
+        <input type="text" id="f-search" placeholder="p. ej. orig_v1.5">
+      </div>
+      <button id="f-reset" class="btn-secondary">Limpiar filtros</button>
+      <span class="filter-count" id="filter-count"></span>
+    </div>
+    <div class="test-grid" id="test-grid"></div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="tab-panel" id="panel-gallery">
+    <h2>Galería</h2>
+    <p class="panel-desc">Reservado para capturas de Gazebo/RViz, mapas de ocupación y trayectorias de futuras sesiones. Se rellenará a medida que se generen.</p>
+    <div class="gallery-grid">
+      <div class="gallery-placeholder"><span>📷</span><p>Captura RViz — trayectoria evasiva</p></div>
+      <div class="gallery-placeholder"><span>🗺️</span><p>Mapa de ocupación (M_g) en el instante del replan</p></div>
+      <div class="gallery-placeholder"><span>📈</span><p>Gráfica de distancia dron-obstáculo vs tiempo</p></div>
+      <div class="gallery-placeholder"><span>🎥</span><p>Captura Gazebo — momento de colisión</p></div>
+      <div class="gallery-placeholder"><span>🧭</span><p>Comparativa de rutas A* (original vs fix experimental)</p></div>
+      <div class="gallery-placeholder"><span>➕</span><p>Espacio para futuras capturas</p></div>
+    </div>
+  </section>
+
+  <!-- ============ BUGS ============ -->
+  <section class="tab-panel" id="panel-bugs">
+    <h2>Bugs encontrados</h2>
+    <div class="bug-list">
+      <article class="card bug-card bug-critical">
+        <div class="bug-head">
+          <span class="bug-badge critical">Planificador · Crítico</span>
+          <h3>"Frontier-blind": el planificador deja de vigilar el camino en modo frontera</h3>
+        </div>
+        <p><strong>Cómo se manifiesta:</strong> cuando A* no encuentra ruta directa a la meta final (p. ej. justo tras despegar, con mapa aún sin explorar), el dron navega hacia una meta intermedia ("frontera"). Mientras dura eso, las dos comprobaciones de <code>MAP_CHECK</code> que detectan obstáculos nuevos en la ruta quedan <strong>desactivadas</strong>.</p>
+        <p><strong>Causa raíz:</strong> <code>gridToImg()</code> en <code>a_star_searcher.cpp</code> trata las celdas desconocidas como ocupadas por defecto (<code>unknown_as_free=false</code>), lo que puede hacer fallar a A* espuriamente nada más despegar.</p>
+        <p><strong>Frecuencia observada:</strong> al menos 12 de 103 repeticiones válidas con <code>frontier_blind_at_drop=True</code> en el instante de soltar el obstáculo.</p>
+        <p><strong>Estado:</strong> fix experimental (<code>unknown_as_free=true</code>) probado — reduce el bug pero introduce inestabilidad de replanteo (oscila cada ~0.5s cerca de obstáculos reales). <strong>Revertido</strong> por decisión explícita; pendiente de una solución de diseño más cuidadosa.</p>
+      </article>
+      <article class="card bug-card bug-op">
+        <div class="bug-head">
+          <span class="bug-badge op">Operativo · Corregido</span>
+          <h3><code>pkill -f</code> se auto-mata dentro de <code>bash -c</code></h3>
+        </div>
+        <p>Al ejecutar <code>pkill -9 -f 'PATRON'</code> dentro de un <code>bash -c "..."</code> cuyo propio argv contiene el mismo <code>PATRON</code> literal, el pkill puede matar el proceso wrapper que lo invoca, abortando silenciosamente el resto del script de limpieza — probablemente la causa real de los "Gazebo colgado" observados. Corregido con el truco <code>'[x]patron'</code> en todos los scripts de orquestación.</p>
+      </article>
+      <article class="card bug-card bug-op">
+        <div class="bug-head">
+          <span class="bug-badge op">Operativo · Corregido</span>
+          <h3>Executor duplicado congelaba <code>drone.position</code></h3>
+        </div>
+        <p><code>DroneInterfaceBase</code> ya corre su propio hilo de spin interno; añadir un <code>MultiThreadedExecutor</code> adicional en <code>mission_latency_study.py</code> causaba que la posición del dron se congelara bajo carga.</p>
+      </article>
+      <article class="card bug-card bug-op">
+        <div class="bug-head">
+          <span class="bug-badge op">Operativo · Corregido</span>
+          <h3>Desajuste sim-time / wall-time en ventanas de captura</h3>
+        </div>
+        <p>Gazebo puede correr con factor tiempo-real &lt;1 bajo carga; una ventana de captura en reloj real fija podía terminar antes de que transcurriera el tiempo simulado equivalente. Corregido usando el reloj ROS del nodo (<code>use_sim_time</code>) para el deadline.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONCLUSIONS ============ -->
+  <section class="tab-panel" id="panel-conclusions">
+    <h2>Conclusiones</h2>
+    <div class="conclusions-grid" id="conclusions-grid">
+      <div class="card conclusion-card">
+        <h3>Distancia mínima segura (Dmin) por velocidad</h3>
+        <table class="dmin-table">
+          <thead><tr><th>Velocidad</th><th>Dmin</th><th>Margen de tiempo</th></tr></thead>
+          <tbody>
+            <tr><td>0.5 m/s</td><td>≈ 1.45 – 1.50 m</td><td>≈ 2.9 – 3.0 s</td></tr>
+            <tr><td>1.0 m/s</td><td>≈ 2.00 – 2.05 m</td><td>≈ 2.0 – 2.05 s</td></tr>
+            <tr><td>1.5 m/s</td><td>≈ 2.88 – 2.98 m</td><td>≈ 1.9 – 2.0 s</td></tr>
+          </tbody>
+        </table>
+        <p class="muted">El margen de tiempo disponible en el punto de corte <strong>decrece</strong> con la velocidad — no es proporcional. Zona de v=1.5 es la más ruidosa (necesita más repeticiones).</p>
+      </div>
+      <div class="card conclusion-card">
+        <h3>El cuello de botella real</h3>
+        <p>No es el periodo del timer de <code>MAP_CHECK</code> (0.5s) ni el LiDAR (~1–1.5s) ni el marcado de celda (~0.3–0.5s). Es el requisito estructural de recorrer <strong>1.5 m desde el último replan</strong> antes de que el chequeo de segmento empiece a muestrear — una distancia disfrazada de tiempo.</p>
+      </div>
+      <div class="card conclusion-card">
+        <h3>Algoritmo perfecto ≠ colisión evitada</h3>
+        <p>Por debajo de Dmin(v), incluso un algoritmo perfecto no tendría margen físico para reaccionar. Por encima de Dmin(v), cualquier colisión adicional (como las de frontier-blind) sí es atribuible a un fallo del sistema, no a la física.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FUTURE ============ -->
+  <section class="tab-panel" id="panel-future">
+    <h2>Trabajo futuro</h2>
+    <p class="panel-desc">Se actualiza al cerrar cada nueva batería. No se elimina nada — solo se marca como resuelto.</p>
+    <ul class="future-list">
+      <li><input type="checkbox" checked disabled> <s>Investigar por qué <code>L_lidar</code> deja de ser medible por encima de 6 m</s> — Resuelto 2026-07-24: artefacto geométrico (anillo inferior del LiDAR contra el suelo a ~4.2 m a la altura de vuelo usada), no afecta a las conclusiones de <code>Dmin(v)</code> ni a <code>MAP_CHECK</code>.</li>
+      <li><input type="checkbox" disabled> Añadir más repeticiones en la zona 2.6–3.1 m a v=1.5 para estrechar el intervalo de Dmin(1.5).</li>
+      <li><input type="checkbox" disabled> Ejecutar el caso <code>giro</code> (obstáculo tras maniobra de cambio de rumbo) — definido en el plan original, no ejecutado aún.</li>
+      <li><input type="checkbox" disabled> Aislar <code>L_react</code> (tiempo de respuesta física del controlador) como métrica independiente.</li>
+      <li><input type="checkbox" disabled> Decidir estrategia de diseño para el bug frontier-blind sin reintroducir la inestabilidad de replanteo.</li>
+      <li><input type="checkbox" disabled> Usar el hallazgo "L_mapcheck = distancia de calentamiento / velocidad" como requisito de diseño de la nueva capa reactiva.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>Generado a partir de <code>master_dataset.json</code> (120 repeticiones, 103 válidas / 17 descartadas). Ver <code>navigation_analysis.md</code> para el detalle técnico completo y <code>understanding_navigation_problem.md</code> para la explicación en lenguaje llano.</p>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
